@@ -21,7 +21,7 @@ header {
 
 main {
     flex: 1 0 auto;
-    background-color: blueviolet;
+    background-color: rgb(27, 15, 14);
 }
 
 footer {
