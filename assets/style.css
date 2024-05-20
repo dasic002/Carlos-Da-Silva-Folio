@@ -11,10 +11,12 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,0));
 }
 
 main {
