@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dosis:wght@300&display=swap');
 
 body {
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
     color: #e0e0e0;
@@ -17,11 +17,13 @@ body {
 header {
     /* background-color: blue; */
     background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,0));
+    position: fixed;
+    width: 100%;
 }
 
 main {
     flex: 1 0 auto;
-    background-color: rgb(27, 15, 14);
+    background-color: blueviolet;
 }
 
 footer {
