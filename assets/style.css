@@ -7,11 +7,18 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dosis:wght@300&display=swap');
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: blue;
 }
 
 main {
+    flex: 1 0 auto;
     background-color: blueviolet;
 }
 
