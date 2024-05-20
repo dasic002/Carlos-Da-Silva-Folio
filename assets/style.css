@@ -1,0 +1,17 @@
+/* wildcard styles to override the browser default */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: brown;
+}
