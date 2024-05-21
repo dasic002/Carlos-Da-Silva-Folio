@@ -166,6 +166,7 @@ A section with 3 or 4 divs containing a project hero image, project name and a s
     - Clear form - reset button
     - Send - submit button
 
+    How will it look:
     - On mobile screens
       - taking up the full width with fields in a column formation.
     - On tablets and larger
