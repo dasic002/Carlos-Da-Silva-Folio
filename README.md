@@ -235,6 +235,12 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!  -->
 
+### Code
+- CSS and HTML code for the nav bar in the header was originally taken from the [Love Running walkthrough project](https://github.com/dasic002/Love-Running), then CSS was altered for the intended look.
+
+### Acknoledgement
+
+
 ## Other General Project Advice
 
 <!-- Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
