@@ -122,11 +122,60 @@ A section with 3 or 4 divs containing a project hero image, project name and a s
    At the bottom of the page, the last section before the footer will invite the visitor to reach out. This section will be clickable to redirect the visitor to the Contact Us page. This present itself as a mail icon centered in all screens, possibly only subtelly increasing in size when viewed in larger displays.
 
    - __Footer__
-   The footer will include clickable icons that redirect the visitor to our:
+   The footer will be visible on all pages and include clickable icons that redirect the visitor to our:
     - Business Instagram profile
     - Personal LinkedIn profile
     - Whatapp Business contact
     - Business Etsy profile
+
+- __Projects page__
+
+![sketched mockup of the Projects page](documentation/Folio-Projects_page.jpg)
+
+  - __Nav bar__
+    - visible as in the landing page
+
+  - __Project section__
+    Currently, unsure on how much information to put per project, so unsure on the space we will need. Thinking mobile first, it certainly will be too much to display at once, so looking to create sections that expand.
+    
+    - On mobile screens and tablets
+      - full width divisions, in column formation containing the hero image with a transparent black background over the top, so the project name is legible.
+      - as the visitor clicks the section, it expands to reveal the project information.
+      - an "X" will be present to give the option to close the section.
+      - Unsure if possible at this moment, but the ideal would be that only one project information is visible at a given time. So should another project section be opened, all others are closed, but also that when the close "X" is clicked, all projects are closed. I suspect the easiest way to implement this is creating an invisible checkbox that when checked to open, it makes the value of the others unchecked. And unchecking it via the "X" icon only closes the relevant section.
+    - On Laptops and larger
+      - These divisions will stand 4 projects side by side across the width of the display.
+      - When clicked on, the information expands below them.
+  
+  - __Contact section__
+    A repeat of what is included on the landing/Home page.
+
+- __Contact us page__
+
+![sketched mockup of the contact us page with form](documentation/Folio-ContactUs_Page.jpg)
+
+  - __Nav bar__
+    Remains the same for consistency
+
+  - __Form__
+    The form on the contact page will include fields for the following:
+    - Name - required
+    - Email - required
+    - Phone number
+    - Message - required
+    - Clear form - reset button
+    - Send - submit button
+
+    - On mobile screens
+      - taking up the full width with fields in a column formation.
+    - On tablets and larger
+      - Name/Email/Phone number fields may be placed in one line, whilst the text area box for the message expands.
+
+    On submission of the form, we need to provide validation of data being sent, is it possible to use CI's formdump to feedback information captured correctly in an iframe?
+    That could be laid out as our page having the mail icon, with a message thanking the visitor for reaching out and someone will be in touch soon, and below that we can see the iframe with the formdump to provide that validation.
+
+  - __Footer__
+    Remains the same for consistency 
 
 
 ## Testing 
