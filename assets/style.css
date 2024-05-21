@@ -31,9 +31,9 @@ header a {
     color: inherit;
 }
 
-/* h1, h2 , h3 {
+h1, h2 , h3 {
     font-family: "comfortaa", sans-serif;
-} */
+}
 
 #menu {
     list-style-type: none;
@@ -81,8 +81,23 @@ nav {
 /* Main */
 main {
     flex: 1 0 auto;
-    background-color: blueviolet;
+    background-color: rgb(0, 0, 0);
     /* padding: 1em 20px 0 20px; */
+}
+
+#welcome-img {
+    background: url(../assets/images/welcome-img.jpg) no-repeat center center/cover;
+    height: 500px;
+    position: relative;
+}
+
+#tag {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1rem 0 0.5rem 1rem;
+    font-size: x-large;
+    color: #000000;
 }
 
 /* Footer */

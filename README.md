@@ -200,7 +200,11 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 - __Nav Bar - turning fully black on expanding__
-  - the checkbox input to toggle open the menu works, but to create the appearance that the fade expands creating a solid black background across the very top does not seem to accept addressing the header to change its background-color to solid back. Need to remind myself how to add an object matching the size of the header that sits behind the hamburger icon.
+The checkbox input to toggle open the menu works, but to create the appearance that the fade expands creating a solid black background across the very top does not seem to accept addressing the header to change its background-color to solid back. Need to remind myself how to add an object matching the size of the header that sits behind the hamburger icon.
+
+- __Google fonts - Comfortaa not loading__
+The imported font Comfortaa does not seem to have loaded correctly.
+
 <!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.  -->
 
 ## Deployment
