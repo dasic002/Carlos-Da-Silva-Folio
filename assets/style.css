@@ -12,14 +12,18 @@ body {
     display: flex;
     flex-direction: column;
     color: #e0e0e0;
+    font-family: "dosis", sans-serif;
 }
 
 header {
-    /* background-color: blue; */
-    background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,0));
     position: fixed;
+    z-index: 99;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     padding: 5px 1rem;
+    align-items: baseline;
 }
 
 header a {
@@ -27,10 +31,16 @@ header a {
     color: inherit;
 }
 
-header li {
+/* h1, h2 , h3 {
+    font-family: "comfortaa", sans-serif;
+} */
+
+#menu {
     list-style-type: none;
     font-size: 120%;
-    font-family: "Comfortaa", sans-serif;
+}
+
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -38,16 +48,72 @@ header li {
     border-bottom: 1px solid #e0e0e0;
 }
 
+/* nav toggle - based from Love Running*/
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+    background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,0));
+}
+
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle:checked~.nav-toggle-label{
+    /* background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,1)); */
+    background-color: #000000;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,0));
+}
+/* ^ from Love Running */
+
+/* Main */
 main {
     flex: 1 0 auto;
     background-color: blueviolet;
     /* padding: 1em 20px 0 20px; */
 }
 
+/* Footer */
 footer {
     background-color: brown;
 }
 
+@media screen and (min-width: 768px) {
+    /* Header */
+    /* copied nav bar styles from the Love Running walkthrough project */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+    /* end of nav bar styles from Love Running */
+}
 
 /* font classes */
 .comfortaa {
