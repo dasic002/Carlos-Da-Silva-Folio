@@ -71,16 +71,24 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- __Navigation Menu__
+- __Landing page__
 
-  - On mobile screens
-    - This menu will appear as discreet hamburger icon on the top left corner, overlaying the content at all time.
-  - On tablets and larger
-    - The links will be visible along the top edge.
+![sketched mockup of landing page](documentation/Folio-landing_page.jpg)
 
-- __Mockup Sketches__
+The landing will bring up a photo of Carlos with name and a nav bar at the top.
+  - __Nav bar__
+    - On mobile screens
+      - This menu will appear as discreet hamburger icon on the top left corner, overlaying the content at all time.
+    - On tablets and larger
+      - The links will be visible along the top edge.
+  - __Welcome image__
+    - On mobile screens
+      - Simply a photo of Carlos with name on the bottom left corner of the photo.
+      - The photo will be shorter than the device view so that the next section is just visible and intuitively prompt the visitor to scroll.
+    - On tablets and larger
+      - The photo will align to the right, making room for the welcome section to fit on the left.
 
-![sketched mockup showing landing page content](documentation/PP1 project - carlos Da Silva Folio 1.jpg)
+
 
 ## Testing 
 
