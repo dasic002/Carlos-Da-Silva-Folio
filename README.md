@@ -88,6 +88,45 @@ The landing will bring up a photo of Carlos with name and a nav bar at the top.
     - On tablets and larger
       - The photo will align to the right, making room for the welcome section to fit on the left.
 
+- __Welcome section__
+
+![sketched mockup of welcome section](documentation/Folio-welcome_section.jpg)
+
+  A section containing a short message welcoming visitors to the website.
+
+  - On mobile screens
+    - As the visitor scrolls down to view this section.
+    - This section will be short enough to make the first project snippet visible and encourage scrolling.
+  - On tablets and larger
+    - This section will share the width of the screen with the welcome image, it will sit to the left of the image.
+
+- __Project snippet section__
+
+![sketched mockup of project snippet section](documentation/Folio-project_snippet_section.jpg)
+
+A section with 3 or 4 divs containing a project hero image, project name and a short description of the project. The intent is to make these clickable to take the visitor over to the projects page with the given project in view.
+
+  - On mobile screens
+    - The divisions will be composed of hero image first and followed by project name and description, visible as the visitor scrolls through.
+  - On tablets
+    - The image and description will stand side by side to take up the whole width.
+    - likely alternating the side the image sits on.
+  - On laptops or larger
+    - The divisions will display 2 project snippets across the display width.
+
+- __Contact section__
+
+![sketched mockup of the contact redirect and footer section](documentation/Folio-footer_section.jpg)
+
+   - __Contact us__
+   At the bottom of the page, the last section before the footer will invite the visitor to reach out. This section will be clickable to redirect the visitor to the Contact Us page. This present itself as a mail icon centered in all screens, possibly only subtelly increasing in size when viewed in larger displays.
+
+   - __Footer__
+   The footer will include clickable icons that redirect the visitor to our:
+    - Business Instagram profile
+    - Personal LinkedIn profile
+    - Whatapp Business contact
+    - Business Etsy profile
 
 
 ## Testing 
