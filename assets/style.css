@@ -34,6 +34,10 @@ header li {
     margin-bottom: 1em;
 }
 
+.active {
+    border-bottom: 1px solid #e0e0e0;
+}
+
 main {
     flex: 1 0 auto;
     background-color: blueviolet;
