@@ -94,7 +94,22 @@ main {
 
 /* Footer */
 footer {
-    background-color: brown;
+    background-image: linear-gradient(to top, rgb(180,37,33), rgb(58, 12, 10));
+    min-height: 2rem;
+}
+
+#contact-platforms {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+#contact-platforms i {
+    font-size: 120%;
+    padding: 5%;
+    color: #e0e0e0;
 }
 
 @media screen and (min-width: 768px) {

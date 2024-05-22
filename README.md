@@ -227,6 +227,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ### Content 
 
+- Icons used in the footer and nav bar were sourced from [Font Awesome](https://fontawesome.com/)
 <!-- - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) -->
