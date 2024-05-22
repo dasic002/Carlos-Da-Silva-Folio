@@ -92,6 +92,73 @@ main {
     color: #000000;
 }
 
+/* Hide the toggle checkbox */
+#expand-toggle {
+    display: none;
+  }
+  
+  /* Hide expandable content by default */
+  .expandable {
+    visibility: collapse;
+    background: #880000;
+  }
+  
+  /* Style the button */
+  #expand-btn {
+    display: block;
+    margin-top: 12px;
+    padding: 5px 11px;
+    background-color: rgb(255, 48, 48);
+    border: 1px solid;
+    border-radius: 3px;
+  }
+  
+  /* Show hidden content when the checkbox is checked */
+  #expand-toggle:checked ~ * .expandable {
+    visibility: visible;
+  }
+  
+  /* Style the button when the checkbox is checked */
+  #expand-toggle:checked ~ #expand-btn {
+    background-color: #000;
+    height: 200px;
+  }
+  
+/* Hide the toggle checkbox */
+#expand-toggle1 {
+    display: none;
+  }
+  
+  /* Hide expandable content by default */
+  .expandable1 {
+    visibility: collapse;
+    background: #880000;
+  }
+  
+  /* Style the button */
+  #expand-btn1 {
+    display: block;
+    margin-top: 12px;
+    padding: 5px 11px;
+    background-color: rgb(255, 48, 48);
+    border: 1px solid;
+    border-radius: 3px;
+  }
+  
+  /* Show hidden content when the checkbox is checked */
+  #expand-toggle1:checked ~ * .expandable1 {
+    visibility: visible;
+  }
+  
+  /* Style the button when the checkbox is checked */
+  #expand-toggle1:checked ~ #expand-btn1 {
+    background-color: #000;
+    height: 200px;
+  }
+  
+
+
+
 /* Footer */
 footer {
     background-image: linear-gradient(to top, rgb(180,37,33), rgb(58, 12, 10));

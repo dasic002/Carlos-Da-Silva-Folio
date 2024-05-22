@@ -242,6 +242,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 ### Code
 - CSS and HTML code for the nav bar in the header was originally taken from the [Love Running walkthrough project](https://github.com/dasic002/Love-Running), then CSS was altered for the intended look.
+- CSS and HTML code for the function of expanding and collapsing of project snippets sourced from [Web mdn docs references for the pseudo :checked](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked).
 
 ### Acknoledgement
 
