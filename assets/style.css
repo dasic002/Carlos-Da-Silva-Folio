@@ -22,7 +22,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: 5px 1rem;
     align-items: baseline;
 }
 
@@ -38,10 +37,11 @@ h1, h2 , h3 {
 #menu {
     list-style-type: none;
     font-size: 120%;
+    display: none;
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    margin: 0.8em 0;
 }
 
 .active {
@@ -53,19 +53,12 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
-    display: none;
-    top: 100%;
-    background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,0));
+    padding: 5px 1rem 0;
+    background-image: linear-gradient(to bottom, #000000, #000000, rgba(0,0,0,0.5));
 }
 
-#nav-toggle:checked~nav{
+#nav-toggle:checked~#menu{
     display: block;
-}
-
-#nav-toggle:checked~.nav-toggle-label{
-    /* background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,1)); */
-    background-color: #000000;
 }
 
 #nav-toggle {
@@ -74,7 +67,6 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    background-image: linear-gradient(to bottom, #000000, rgba(0,0,0,0));
 }
 /* ^ from Love Running */
 
