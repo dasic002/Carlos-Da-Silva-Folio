@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dosis:wght@300&display=swap');
 
 body {
-    min-height: 150vh;
+    /* min-height: 150vh; */
     display: flex;
     flex-direction: column;
     color: #e0e0e0;
@@ -129,7 +129,7 @@ main {
   
   /* Style the button when the checkbox is checked */
   #expand-toggle:checked ~ #prj1-img {
-    height: 40vw;
+    height: 80vw;
   }
 
   #project-1 {
@@ -138,7 +138,7 @@ main {
 
   #prj1-img {
     background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;   
-    height: 40px; 
+    height: 2.5rem; 
   }
 
 
