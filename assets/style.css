@@ -92,6 +92,24 @@ main {
     color: #000000;
 }
 
+/* Reset button that "closes" any project expanded section */
+#projects input[type="reset"] {
+    display: none;
+}
+
+/* hide the reset label whilst sections are collapsed */
+/* .close-proj {
+    display: none;
+} */
+
+/* #expand-toggle:checked ~ #project-1 > .close-proj{
+    visibility: visible;
+  } */
+  
+.right_just{
+    right: 5px;
+}
+
 /* Hide the toggle checkbox */
 #expand-toggle {
     display: none;
@@ -100,7 +118,7 @@ main {
   /* Hide expandable content by default */
   .expandable {
     visibility: collapse;
-    background: #880000;
+    /* background: #880000; */
   }
   
   /* Style the button */
@@ -111,10 +129,12 @@ main {
     background-color: rgb(255, 48, 48);
     border: 1px solid;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
   }
   
   /* Show hidden content when the checkbox is checked */
-  #expand-toggle:checked ~ * .expandable {
+  #expand-toggle:checked ~ * .expandable{
     visibility: visible;
   }
   
@@ -132,7 +152,7 @@ main {
   /* Hide expandable content by default */
   .expandable1 {
     visibility: collapse;
-    background: #880000;
+    /* background: #880000; */
   }
   
   /* Style the button */
@@ -143,6 +163,8 @@ main {
     background-color: rgb(255, 48, 48);
     border: 1px solid;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
   }
   
   /* Show hidden content when the checkbox is checked */
