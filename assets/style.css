@@ -97,19 +97,6 @@ main {
     display: none;
 }
 
-/* hide the reset label whilst sections are collapsed */
-/* .close-proj {
-    display: none;
-} */
-
-/* #expand-toggle:checked ~ #project-1 > .close-proj{
-    visibility: visible;
-  } */
-  
-.right_just{
-    right: 5px;
-}
-
 /* Hide the toggle checkbox */
 #expand-toggle {
     display: none;
@@ -126,7 +113,8 @@ main {
     display: block;
     margin-top: 12px;
     padding: 5px 11px;
-    background-color: rgb(255, 48, 48);
+    /* background-color: rgb(255, 48, 48); */
+    background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;
     border: 1px solid;
     border-radius: 3px;
     display: flex;
@@ -140,10 +128,16 @@ main {
   
   /* Style the button when the checkbox is checked */
   #expand-toggle:checked ~ #expand-btn {
-    background-color: #000;
+    /* background-color: rgba(0,0,0,0.5); */
+    color: #000;
     height: 200px;
   }
-  
+
+  /* #project-1 {
+    
+  } */
+
+
 /* Hide the toggle checkbox */
 #expand-toggle1 {
     display: none;
