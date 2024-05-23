@@ -111,14 +111,15 @@ main {
   /* Style the button */
   #expand-btn {
     display: block;
-    margin-top: 12px;
-    padding: 5px 11px;
-    /* background-color: rgb(255, 48, 48); */
-    background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;
-    border: 1px solid;
-    border-radius: 3px;
+    position:absolute;
+    /* margin-top: 12px; */
+    padding: 11px;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
+    z-index: 98;
+    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
   }
   
   /* Show hidden content when the checkbox is checked */
@@ -127,15 +128,18 @@ main {
   }
   
   /* Style the button when the checkbox is checked */
-  #expand-toggle:checked ~ #expand-btn {
-    /* background-color: rgba(0,0,0,0.5); */
-    color: #000;
-    height: 200px;
+  #expand-toggle:checked ~ #prj1-img {
+    height: 40vw;
   }
 
-  /* #project-1 {
-    
-  } */
+  #project-1 {
+    position: relative;
+      }
+
+  #prj1-img {
+    background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;   
+    height: 40px; 
+  }
 
 
 /* Hide the toggle checkbox */
@@ -155,8 +159,8 @@ main {
     margin-top: 12px;
     padding: 5px 11px;
     background-color: rgb(255, 48, 48);
-    border: 1px solid;
-    border-radius: 3px;
+    /* border: 1px solid; */
+    /* border-radius: 3px; */
     display: flex;
     justify-content: space-between;
   }
