@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #e0e0e0;
+    background-color: #000000;
     font-family: "dosis", sans-serif;
 }
 
@@ -73,7 +74,7 @@ nav {
 /* Main */
 main {
     flex: 1 0 auto;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     /* padding: 1em 20px 0 20px; */
 }
 
@@ -109,13 +110,22 @@ main {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 132px;
     padding: 1rem 0 0.5rem 1rem;
     font-size: 2rem;
     color: #000000;
     z-index: 3;
     background-color: rgba(224, 224, 224, 0.2);
     /* width: 100%; */
+}
+
+#welcome-msg {
+    /* position: absolute; */
+    padding: 1rem;
+    background-color: #e0e0e0;
+    color: #000000;
+    z-index: 3;
+    height: 100px;
 }
 
 /* Reset button that "closes" any project expanded section */
