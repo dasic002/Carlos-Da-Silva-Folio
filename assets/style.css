@@ -37,6 +37,11 @@ h3 {
     font-family: "comfortaa", sans-serif;
 }
 
+/* class to hide components for aesthetics, mainly semantic elements */
+.hidden {
+    display: none;
+}
+
 #menu {
     list-style-type: none;
     font-size: 120%;
@@ -141,10 +146,6 @@ main {
 #projects input[type="reset"] {
     display: none;
 }
-
-/* .hidden {
-    visibility: hidden;
-} */
 
 
 /* Project 1 */
@@ -371,6 +372,9 @@ main {
     background: url(../assets/images/proj-4-a.jpg) no-repeat center center / cover;
     height: 14vw;
 }
+
+/* CONTACT US SECTION */
+
 
 
 /* Footer */
