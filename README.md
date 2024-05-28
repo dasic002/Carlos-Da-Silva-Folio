@@ -202,6 +202,12 @@ If this section grows too long, you may want to split it off into a separate fil
 - __Nav Bar - turning fully black on expanding__
 The checkbox input to toggle open the menu works, but to create the appearance that the fade expands creating a solid black background across the very top does not seem to accept addressing the header to change its background-color to solid back. Need to remind myself how to add an object matching the size of the header that sits behind the hamburger icon.
 
+- __Nav Bar - using section IDs on nav list__
+Using Section IDs for the navigation of the site means the menu does not toggle off on clicking them. Tried using label element to trigger the checkbox that expands the nav menu:
+  - wrapping the visible text of the anchor toggles the checkbox, but does not navigate;
+  - wrapping the anchor, navigates but does toggle the checkbox.
+Might be able to improve UI by substituting the hamburger/bars icon on expading the menu with a X icon.
+
 - __Google fonts - Comfortaa not loading__
 The imported font Comfortaa does not seem to have loaded correctly.
 

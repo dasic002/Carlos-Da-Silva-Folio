@@ -69,13 +69,25 @@ nav {
     display: block;
 }
 
-#nav-toggle {
-    display: none;
-}
-
 .nav-toggle-label {
     font-size: 2rem;
 }
+/* 
+#bars {
+    visibility: visible;
+}
+
+#nav-toggle:checked~#bars{
+    visibility: hidden;
+}
+
+#cls-menu{
+    visibility: hidden;
+}
+
+#nav-toggle:checked~#cls-menu{
+    visibility: visible;
+} */
 
 /* ^ from Love Running */
 
@@ -147,23 +159,18 @@ main {
     display: none;
 }
 
-
-/* Project 1 */
-
 /* Hide the toggle checkbox */
-#expand-toggle1 {
+#expand-toggle1, #expand-toggle2, #expand-toggle3, #expand-toggle4 {
     display: none;
 }
 
 /* Hide expandable content by default */
-.expandable1 {
-    /* visibility: collapse; */
+.expandable1, .expandable2, .expandable3, .expandable4 {
     display: none;
-    /* background: #880000; */
 }
 
 /* Style the button */
-#expand-btn1 {
+#expand-btn1, #expand-btn2, #expand-btn3, #expand-btn4{
     display: block;
     position: absolute;
     height: 14vw;
@@ -180,23 +187,23 @@ main {
 }
 
 /* Show hidden content when the checkbox is checked */
-#expand-toggle1:checked~* .expandable1 {
+#expand-toggle1:checked~* .expandable1, #expand-toggle2:checked~* .expandable2, #expand-toggle3:checked~* .expandable3, #expand-toggle4:checked~* .expandable4 {
     /* visibility: visible; */
     display: contents;
 }
 
 /* Style the button when the checkbox is checked */
-#expand-toggle1:checked~#prj1-img {
+#expand-toggle1:checked~#prj1-img, #expand-toggle2:checked~#prj2-img, #expand-toggle3:checked~#prj3-img, #expand-toggle4:checked~#prj4-img {
     height: 80vw;
 }
 
-#expand-toggle1:checked~#expand-btn1 {
+#expand-toggle1:checked~#expand-btn1, #expand-toggle2:checked~#expand-btn2, #expand-toggle3:checked~#expand-btn3, #expand-toggle4:checked~#expand-btn4 {
     top: auto;
     bottom: auto;
     font-style: strong;
 }
 
-#project-1 {
+#project-1, #project-2, #project-3, #project-4 {
     position: relative;
 }
 
@@ -205,167 +212,14 @@ main {
     height: 14vw;
 }
 
-/* Project 2 */
-
-/* Hide the toggle checkbox */
-#expand-toggle2 {
-    display: none;
-}
-/* Hide expandable content by default */
-.expandable2 {
-    /* visibility: collapse; */
-    display: none;
-    /* background: #880000; */
-}
-
-/* Style the button */
-#expand-btn2 {
-    display: block;
-    position: absolute;
-    height: 14vw;
-    padding: 0 1rem;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 98;
-    background: rgba(0, 0, 0, .75);
-}
-
-/* Show hidden content when the checkbox is checked */
-#expand-toggle2:checked~* .expandable2 {
-    /* visibility: visible; */
-    display: contents;
-}
-
-/* Style the button when the checkbox is checked */
-#expand-toggle2:checked~#prj2-img {
-    height: 80vw;
-}
-
-#expand-toggle2:checked~#expand-btn2 {
-    top: auto;
-    bottom: auto;
-    font-style: strong;
-}
-
-#project-2 {
-    position: relative;
-}
-
 #prj2-img {
     background: url(../assets/images/proj-2-a.png) no-repeat center center / cover;
     height: 14vw;
 }
 
-/* Project 3 */
-
-/* Hide the toggle checkbox */
-#expand-toggle3 {
-    display: none;
-}
-/* Hide expandable content by default */
-.expandable3 {
-    /* visibility: collapse; */
-    display: none;
-    /* background: #880000; */
-}
-
-/* Style the button */
-#expand-btn3 {
-    display: block;
-    position: absolute;
-    height: 14vw;
-    padding: 0 1rem;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 98;
-    background: rgba(0, 0, 0, .75);
-}
-
-/* Show hidden content when the checkbox is checked */
-#expand-toggle3:checked~* .expandable3 {
-    /* visibility: visible; */
-    display: contents;
-}
-
-/* Style the button when the checkbox is checked */
-#expand-toggle3:checked~#prj3-img {
-    height: 80vw;
-}
-
-#expand-toggle3:checked~#expand-btn3 {
-    top: auto;
-    bottom: auto;
-    font-style: strong;
-}
-
-#project-3 {
-    position: relative;
-}
-
 #prj3-img {
     background: url(../assets/images/proj-3-a.png) no-repeat center center / cover;
     height: 14vw;
-}
-
-/* Project 4 */
-
-/* Hide the toggle checkbox */
-#expand-toggle4 {
-    display: none;
-}
-/* Hide expandable content by default */
-.expandable4 {
-    /* visibility: collapse; */
-    display: none;
-    /* background: #880000; */
-}
-
-/* Style the button */
-#expand-btn4 {
-    display: block;
-    position: absolute;
-    height: 14vw;
-    padding: 0 1rem;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 98;
-    background: rgba(0, 0, 0, .75);
-}
-
-/* Show hidden content when the checkbox is checked */
-#expand-toggle4:checked~* .expandable4 {
-    /* visibility: visible; */
-    display: contents;
-}
-
-/* Style the button when the checkbox is checked */
-#expand-toggle4:checked~#prj4-img {
-    height: 80vw;
-}
-
-#expand-toggle4:checked~#expand-btn4 {
-    top: auto;
-    bottom: auto;
-    font-style: strong;
-}
-
-#project-4 {
-    position: relative;
 }
 
 #prj4-img {
