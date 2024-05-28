@@ -186,10 +186,10 @@ main {
     background: rgba(0, 0, 0, .75);
 }
 
-/* Show hidden content when the checkbox is checked */
+/* Show hidden content when the checkbox is checked and add margin*/
 #expand-toggle1:checked~* .expandable1, #expand-toggle2:checked~* .expandable2, #expand-toggle3:checked~* .expandable3, #expand-toggle4:checked~* .expandable4 {
-    /* visibility: visible; */
-    display: contents;
+    display: block;
+    margin: 1rem;
 }
 
 /* Style the button when the checkbox is checked */
@@ -205,6 +205,7 @@ main {
 
 #project-1, #project-2, #project-3, #project-4 {
     position: relative;
+    margin: 5px 0;
 }
 
 #prj1-img {
@@ -226,6 +227,12 @@ main {
     background: url(../assets/images/proj-4-a.jpg) no-repeat center center / cover;
     height: 14vw;
 }
+
+.prj-txt{
+    line-height: 1.5rem;
+}
+
+
 
 /* CONTACT US SECTION */
 #contact-us {
