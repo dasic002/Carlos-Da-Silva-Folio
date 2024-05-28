@@ -129,7 +129,7 @@
                                         enabled our clients to deploy their choice of Tablet computer, Pin entry device,
                                         Receipt printer, as well as configure the orientation of the POS system (i.e.:
                                         Traditional, Self-serve, and mobile).
-                                        <br>
+
                                         <br>
                                         A great portion of projects were creating new modules, primarily Tablet skins
                                         and and PED harnesses, along with some other accessories.
@@ -171,26 +171,31 @@
             </form>
         </section>
         <section id="contact-us">
-            <div id="contact">
-                <form action="https://formdump.codeinstitute.net" method="post" id="contact-form">
-                    <h2>Let's work together!</h2><br>
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name" class="input-field" required>
-                    <label for="Surname">Surname</label>
-                    <input type="text" id="surname" name="surname" class="input-field" required><br>
-                    <label for="email">Email address</label>
-                    <input type="email" id="email" name="email" class="input-field" required><br>
-                    <label for="phone-no">Phone Number</label>
-                    <input type="number" id="phone-no" name="phone-no" class="input-field"><br>
-                    <label for="message">Message</label><br>
-                    <textarea name="message" id="message"
-                        placeholder="Introduce yourself / What project requirements are looking to fulfil?" rows="10"
-                        cols="40"></textarea>
-                    <br>
-                    <button type="reset">Clear form</button>
-                    <button type="submit" class="send-btn">Send!</button>
-                </form>
-            </div>
+            <form action="https://formdump.codeinstitute.net" method="post" id="contact-form">
+                <h2>Let's work together!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" class="input-field" required>
+                <br>
+                <label for="Surname">Surname</label>
+                <input type="text" id="surname" name="surname" class="input-field" required>
+                <br>
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" class="input-field" required>
+                <br>
+                <label for="phone-no">Phone Number</label>
+                <input type="number" id="phone-no" name="phone-no" class="input-field">
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" class="input-field"
+                    placeholder="Introduce yourself / What project requirements are looking to fulfil?" rows="10"
+                    cols="30"></textarea>
+                <div id="contact-btns">
+                    <input type="reset" id="reset-contact" class="hidden">
+                    <label for="reset-contact"><i class="fa-solid fa-eraser"></i></label>
+                    <input type="submit" id="submit-contact" class="hidden">
+                    <label for="submit-contact"><i class="fa-solid fa-paper-plane"></i></label>
+                </div>
+            </form>
         </section>
     </main>
     <footer>

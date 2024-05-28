@@ -228,7 +228,42 @@ main {
 }
 
 /* CONTACT US SECTION */
+#contact-us {
+    padding: 5vw;
+    flex-grow: 1;
+}
 
+#contact-form {
+    /* display: block; */
+    background-color: rgba(180, 37, 33, 0.5);
+    /* width: 100%; */
+    padding: 1rem;
+}
+
+#contact-form h2 {
+    margin-bottom: 15px;
+}
+
+.input-field {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: inherit;
+    width: 95%;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    border: none;
+    border-radius: .75rem;
+    font-family: inherit;
+}
+
+#contact-btns{
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 95%;
+    left: 0;
+    right: 0;
+}
 
 
 /* Footer */
