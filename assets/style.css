@@ -1,5 +1,5 @@
 /* wildcard styles to override the browser default */
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,9 @@ header a {
     color: inherit;
 }
 
-h1, h2 , h3 {
+h1,
+h2,
+h3 {
     font-family: "comfortaa", sans-serif;
 }
 
@@ -41,7 +43,7 @@ h1, h2 , h3 {
     display: none;
 }
 
-#menu > li {
+#menu>li {
     margin: 0.8em 0;
 }
 
@@ -55,10 +57,10 @@ nav {
     width: 100%;
     left: 0;
     padding: 5px 1rem 0;
-    background-image: linear-gradient(to bottom, #000000, #000000, rgba(0,0,0,0.5));
+    background-image: linear-gradient(to bottom, #000000, #000000, rgba(0, 0, 0, 0.5));
 }
 
-#nav-toggle:checked~#menu{
+#nav-toggle:checked~#menu {
     display: block;
 }
 
@@ -69,6 +71,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* ^ from Love Running */
 
 /* Main */
@@ -80,7 +83,7 @@ main {
 
 #welcome {
     display: block;
-    position:relative;
+    position: relative;
     /* height: auto; */
 }
 
@@ -128,96 +131,142 @@ main {
     height: 100px;
 }
 
+/* PROJECTS SECTION */
+/* adjusts H2 font size for small displays, needs to revert to regular once on tablets */
+#projects h2 {
+    font-size: 5vw;
+}
+
 /* Reset button that "closes" any project expanded section */
 #projects input[type="reset"] {
     display: none;
 }
 
-/* Hide the toggle checkbox */
-#expand-toggle {
-    display: none;
-  }
-  
-  /* Hide expandable content by default */
-  .expandable {
-    visibility: collapse;
-    /* background: #880000; */
-  }
-  
-  /* Style the button */
-  #expand-btn {
-    display: block;
-    position:absolute;
-    /* margin-top: 12px; */
-    padding: 11px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    z-index: 98;
-    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
-  }
-  
-  /* Show hidden content when the checkbox is checked */
-  #expand-toggle:checked ~ * .expandable{
-    visibility: visible;
-  }
-  
-  /* Style the button when the checkbox is checked */
-  #expand-toggle:checked ~ #prj1-img {
-    height: 80vw;
-  }
+/* .hidden {
+    visibility: hidden;
+} */
 
-  #project-1 {
-    position: relative;
-      }
 
-  #prj1-img {
-    background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;   
-    height: 14vw; 
-  }
-
+/* Project 1 */
 
 /* Hide the toggle checkbox */
 #expand-toggle1 {
     display: none;
-  }
-  
-  /* Hide expandable content by default */
-  .expandable1 {
-    visibility: collapse;
+}
+
+/* Hide expandable content by default */
+.expandable1 {
+    /* visibility: collapse; */
+    display: none;
     /* background: #880000; */
-  }
-  
-  /* Style the button */
-  #expand-btn1 {
+}
+
+/* Style the button */
+#expand-btn1 {
     display: block;
-    margin-top: 12px;
-    padding: 5px 11px;
-    background-color: rgb(255, 48, 48);
-    /* border: 1px solid; */
-    /* border-radius: 3px; */
+    position: absolute;
+    height: 14vw;
+    padding: 0 1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
-  }
-  
-  /* Show hidden content when the checkbox is checked */
-  #expand-toggle1:checked ~ * .expandable1 {
-    visibility: visible;
-  }
-  
-  /* Style the button when the checkbox is checked */
-  #expand-toggle1:checked ~ #expand-btn1 {
-    background-color: #000;
-    height: 200px;
-  }
-  
+    align-items: center;
+    z-index: 98;
+    background: rgba(0, 0, 0, .75);
+}
+
+/* Show hidden content when the checkbox is checked */
+#expand-toggle1:checked~* .expandable1 {
+    /* visibility: visible; */
+    display: contents;
+}
+
+/* Style the button when the checkbox is checked */
+#expand-toggle1:checked~#prj1-img {
+    height: 80vw;
+}
+
+#expand-toggle1:checked~#expand-btn1 {
+    top: auto;
+    bottom: auto;
+    font-style: strong;
+}
+
+#project-1 {
+    position: relative;
+}
+
+#prj1-img {
+    background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;
+    height: 14vw;
+}
+
+/* Project 2 */
+
+/* Hide the toggle checkbox */
+#expand-toggle2 {
+    display: none;
+}
+/* Hide expandable content by default */
+.expandable2 {
+    /* visibility: collapse; */
+    display: none;
+    /* background: #880000; */
+}
+
+/* Style the button */
+#expand-btn2 {
+    display: block;
+    position: absolute;
+    height: 14vw;
+    padding: 0 1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 98;
+    background: rgba(0, 0, 0, .75);
+}
+
+/* Show hidden content when the checkbox is checked */
+#expand-toggle2:checked~* .expandable2 {
+    /* visibility: visible; */
+    display: contents;
+}
+
+/* Style the button when the checkbox is checked */
+#expand-toggle2:checked~#prj2-img {
+    height: 80vw;
+}
+
+#expand-toggle2:checked~#expand-btn2 {
+    top: auto;
+    bottom: auto;
+    font-style: strong;
+}
+
+#project-2 {
+    position: relative;
+}
+
+#prj2-img {
+    background: url(../assets/images/proj-2-a.png) no-repeat center center / cover;
+    height: 14vw;
+}
+
+
 
 
 
 /* Footer */
 footer {
-    background-image: linear-gradient(to top, rgb(180,37,33), rgb(58, 12, 10));
+    background-image: linear-gradient(to top, rgb(180, 37, 33), rgb(58, 12, 10));
     min-height: 2rem;
 }
 
@@ -236,6 +285,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+
     /* Header */
     /* copied nav bar styles from the Love Running walkthrough project */
     nav {
@@ -250,13 +300,14 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
+
     /* end of nav bar styles from Love Running */
 }
 
@@ -269,8 +320,8 @@ footer {
 }
 
 .dosis {
-  font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
