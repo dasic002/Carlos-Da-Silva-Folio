@@ -260,8 +260,117 @@ main {
     height: 14vw;
 }
 
+/* Project 3 */
 
+/* Hide the toggle checkbox */
+#expand-toggle3 {
+    display: none;
+}
+/* Hide expandable content by default */
+.expandable3 {
+    /* visibility: collapse; */
+    display: none;
+    /* background: #880000; */
+}
 
+/* Style the button */
+#expand-btn3 {
+    display: block;
+    position: absolute;
+    height: 14vw;
+    padding: 0 1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 98;
+    background: rgba(0, 0, 0, .75);
+}
+
+/* Show hidden content when the checkbox is checked */
+#expand-toggle3:checked~* .expandable3 {
+    /* visibility: visible; */
+    display: contents;
+}
+
+/* Style the button when the checkbox is checked */
+#expand-toggle3:checked~#prj3-img {
+    height: 80vw;
+}
+
+#expand-toggle3:checked~#expand-btn3 {
+    top: auto;
+    bottom: auto;
+    font-style: strong;
+}
+
+#project-3 {
+    position: relative;
+}
+
+#prj3-img {
+    background: url(../assets/images/proj-3-a.png) no-repeat center center / cover;
+    height: 14vw;
+}
+
+/* Project 4 */
+
+/* Hide the toggle checkbox */
+#expand-toggle4 {
+    display: none;
+}
+/* Hide expandable content by default */
+.expandable4 {
+    /* visibility: collapse; */
+    display: none;
+    /* background: #880000; */
+}
+
+/* Style the button */
+#expand-btn4 {
+    display: block;
+    position: absolute;
+    height: 14vw;
+    padding: 0 1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 98;
+    background: rgba(0, 0, 0, .75);
+}
+
+/* Show hidden content when the checkbox is checked */
+#expand-toggle4:checked~* .expandable4 {
+    /* visibility: visible; */
+    display: contents;
+}
+
+/* Style the button when the checkbox is checked */
+#expand-toggle4:checked~#prj4-img {
+    height: 80vw;
+}
+
+#expand-toggle4:checked~#expand-btn4 {
+    top: auto;
+    bottom: auto;
+    font-style: strong;
+}
+
+#project-4 {
+    position: relative;
+}
+
+#prj4-img {
+    background: url(../assets/images/proj-4-a.jpg) no-repeat center center / cover;
+    height: 14vw;
+}
 
 
 /* Footer */
