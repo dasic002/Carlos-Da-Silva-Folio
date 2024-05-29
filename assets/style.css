@@ -131,7 +131,7 @@ main {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 132px;
+    top: 366px;
     padding: 1rem 0 0.5rem 1rem;
     font-size: 2rem;
     color: #000000;
@@ -146,7 +146,12 @@ main {
     background-color: #e0e0e0;
     color: #000000;
     z-index: 3;
-    height: 100px;
+    /* height: 100px; */
+}
+
+#welcome-msg p {
+    padding-top: .5rem;
+    line-height: 1.5rem;
 }
 
 /* PROJECTS SECTION */
