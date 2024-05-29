@@ -363,7 +363,6 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
     /* end of nav bar styles from Love Running */
 
     #prj1-img,
@@ -403,6 +402,20 @@ footer {
         height: 340px;
     }
 
+}
+
+@media screen and (min-width: 768px) {
+    #welcome-img {
+        background-position: 75%;
+    }
+
+    #welcome-msg{
+        position: absolute;
+        left: 5vw;
+        top: 150px;
+        width: 40vw;
+        border-radius: 0.75rem;
+    }
 }
 
 /* font classes */
