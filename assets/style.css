@@ -72,6 +72,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* 
 #bars {
     visibility: visible;
@@ -160,17 +161,26 @@ main {
 }
 
 /* Hide the toggle checkbox */
-#expand-toggle1, #expand-toggle2, #expand-toggle3, #expand-toggle4 {
+#expand-toggle1,
+#expand-toggle2,
+#expand-toggle3,
+#expand-toggle4 {
     display: none;
 }
 
 /* Hide expandable content by default */
-.expandable1, .expandable2, .expandable3, .expandable4 {
+.expandable1,
+.expandable2,
+.expandable3,
+.expandable4 {
     display: none;
 }
 
 /* Style the button */
-#expand-btn1, #expand-btn2, #expand-btn3, #expand-btn4{
+#expand-btn1,
+#expand-btn2,
+#expand-btn3,
+#expand-btn4 {
     display: block;
     position: absolute;
     height: 14vw;
@@ -187,49 +197,64 @@ main {
 }
 
 /* Show hidden content when the checkbox is checked and add margin*/
-#expand-toggle1:checked~* .expandable1, #expand-toggle2:checked~* .expandable2, #expand-toggle3:checked~* .expandable3, #expand-toggle4:checked~* .expandable4 {
+#expand-toggle1:checked~* .expandable1,
+#expand-toggle2:checked~* .expandable2,
+#expand-toggle3:checked~* .expandable3,
+#expand-toggle4:checked~* .expandable4 {
     display: block;
     margin: 1rem;
 }
 
 /* Style the button when the checkbox is checked */
-#expand-toggle1:checked~#prj1-img, #expand-toggle2:checked~#prj2-img, #expand-toggle3:checked~#prj3-img, #expand-toggle4:checked~#prj4-img {
+#expand-toggle1:checked~#prj1-img,
+#expand-toggle2:checked~#prj2-img,
+#expand-toggle3:checked~#prj3-img,
+#expand-toggle4:checked~#prj4-img {
     height: 80vw;
 }
 
-#expand-toggle1:checked~#expand-btn1, #expand-toggle2:checked~#expand-btn2, #expand-toggle3:checked~#expand-btn3, #expand-toggle4:checked~#expand-btn4 {
+#expand-toggle1:checked~#expand-btn1,
+#expand-toggle2:checked~#expand-btn2,
+#expand-toggle3:checked~#expand-btn3,
+#expand-toggle4:checked~#expand-btn4 {
     top: auto;
     bottom: auto;
     font-style: strong;
 }
 
-#project-1, #project-2, #project-3, #project-4 {
+#project-1,
+#project-2,
+#project-3,
+#project-4 {
     position: relative;
     margin: 5px 0;
 }
 
+#prj1-img,
+#prj2-img,
+#prj3-img,
+#prj4-img {
+    height: 14vw;
+}
+
+.prj-txt {
+    line-height: 1.5rem;
+}
+
 #prj1-img {
     background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;
-    height: 14vw;
 }
 
 #prj2-img {
     background: url(../assets/images/proj-2-a.png) no-repeat center center / cover;
-    height: 14vw;
 }
 
 #prj3-img {
     background: url(../assets/images/proj-3-a.png) no-repeat center center / cover;
-    height: 14vw;
 }
 
 #prj4-img {
     background: url(../assets/images/proj-4-a.jpg) no-repeat center center / cover;
-    height: 14vw;
-}
-
-.prj-txt{
-    line-height: 1.5rem;
 }
 
 
@@ -262,7 +287,7 @@ main {
     font-family: inherit;
 }
 
-#contact-btns{
+#contact-btns {
     font-size: 2rem;
     display: flex;
     position: relative;
@@ -293,7 +318,7 @@ footer {
     color: #e0e0e0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 425px) {
 
     /* Header */
     /* copied nav bar styles from the Love Running walkthrough project */
@@ -301,8 +326,8 @@ footer {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        /* width: fit-content; */
+        padding-left: 0;
     }
 
     #menu {
@@ -310,7 +335,7 @@ footer {
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 1.5rem;
     }
 
     .nav-toggle-label {
@@ -318,6 +343,44 @@ footer {
     }
 
     /* end of nav bar styles from Love Running */
+
+    #prj1-img,
+    #prj2-img,
+    #prj3-img,
+    #prj4-img {
+        height: 60px;
+    }
+
+    #projects h2 {
+        font-size: 22px;
+    }
+
+    #expand-btn1,
+    #expand-btn2,
+    #expand-btn3,
+    #expand-btn4 {
+        /* display: block; */
+        /* position: absolute; */
+        height: 60px;
+        /* padding: 0 1rem;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 98;
+        background: rgba(0, 0, 0, .75); */
+    }
+
+    #expand-toggle1:checked~#prj1-img,
+    #expand-toggle2:checked~#prj2-img,
+    #expand-toggle3:checked~#prj3-img,
+    #expand-toggle4:checked~#prj4-img {
+        height: 340px;
+    }
+
 }
 
 /* font classes */
