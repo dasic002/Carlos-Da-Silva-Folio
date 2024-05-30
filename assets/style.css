@@ -287,15 +287,19 @@ main {
     margin-bottom: 15px;
 }
 
+#contact-form label{
+    display: block;
+}
+
 .input-field {
     background-color: rgba(0, 0, 0, 0.5);
     color: inherit;
-    width: 95%;
+    width: 99%;
     padding: 5px;
-    margin: 5px 0 15px 0;
     border: none;
     border-radius: .75rem;
     font-family: inherit;
+    display: block;
 }
 
 #contact-btns {
@@ -303,9 +307,9 @@ main {
     display: flex;
     position: relative;
     justify-content: space-between;
-    width: 95%;
     left: 0;
     right: 0;
+    margin: 1rem;
 }
 
 
