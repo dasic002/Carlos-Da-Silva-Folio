@@ -363,6 +363,7 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
     /* end of nav bar styles from Love Running */
 
     #prj1-img,
@@ -404,17 +405,65 @@ footer {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     #welcome-img {
         background-position: 75%;
     }
 
-    #welcome-msg{
+    #welcome-msg {
         position: absolute;
         left: 5vw;
         top: 150px;
         width: 40vw;
         border-radius: 0.75rem;
+    }
+
+    /* Projects section set to flex */
+    #project-1,
+    #project-2,
+    #project-3,
+    #project-4,
+    .proj-btn {
+        display: flex;
+        width: 100%;
+    }
+
+    /* Sets project images visible the whole time */
+    #expand-toggle1:checked~#prj1-img,
+    #expand-toggle2:checked~#prj2-img,
+    #expand-toggle3:checked~#prj3-img,
+    #expand-toggle4:checked~#prj4-img {
+        height: auto;
+        min-height: 340px;
+    }
+
+    /* Sets proj image to fill the height of their div when taller than 340px due to text */
+    #prj1-img,
+    #prj2-img,
+    #prj3-img,
+    #prj4-img {
+        height: auto;
+        min-height: 340px;
+        flex: 1 0 300px;
+    }
+
+    /* Sets project text visible the whole time */
+    .expandable1,
+    .expandable2,
+    .expandable3,
+    .expandable4 {
+        display: block;
+        margin: 1rem;
+    }
+
+    .prj-txt {
+        flex: 1 0 200px;
+        align-content: flex-start;
+    }
+
+    /* hide the X icon on project sections */
+    #projects i {
+        display: none;
     }
 }
 
