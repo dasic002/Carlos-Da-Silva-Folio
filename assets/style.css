@@ -500,6 +500,20 @@ footer {
         width: 29vw;
         /* border-radius: 0.75rem; */
     }
+
+    #projects form {
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* column-count: 2; */
+    }
+
+    #project-1,
+    #project-2,
+    #project-3,
+    #project-4 {
+        display: inline-block;
+        margin: 1rem;
+    }
 }
 
 /* font classes */
