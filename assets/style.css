@@ -424,7 +424,7 @@ footer {
         border-radius: 0.75rem;
     }
 
-    /* Projects section set to flex */
+    /* Each projects set to flex */
     #project-1,
     #project-2,
     #project-3,
@@ -485,6 +485,20 @@ footer {
     /* hide the X icon on project sections */
     #projects i {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #welcome-img {
+        background-position: 60%;
+    }
+
+    #welcome-msg {
+        /* position: absolute; */
+        left: 18vw;
+        /* top: 150px; */
+        width: 29vw;
+        /* border-radius: 0.75rem; */
     }
 }
 
