@@ -155,12 +155,12 @@ main {
 }
 
 /* PROJECTS SECTION */
-/* adjusts H2 font size for small displays, needs to revert to regular once on tablets */
-#projects h2 {
+/* adjusts H2 font size in project labels for small displays, needs to revert to fixed once on tablets */
+#projects label h2 {
     font-size: 5vw;
 }
 
-/* Reset button that "closes" any project expanded section */
+/* Reset button that "closes" any project expanded section, set invisible as default */
 #projects input[type="reset"] {
     display: none;
 }
@@ -244,6 +244,12 @@ main {
 
 .prj-txt {
     line-height: 1.5rem;
+}
+
+/* heading of projects is invisible until display is wide enough and we would want the heading to move to project text area */
+.prj-txt h2 {
+    display: none;
+    margin: 1rem;
 }
 
 #prj1-img {
@@ -373,7 +379,7 @@ footer {
         height: 60px;
     }
 
-    #projects h2 {
+    #projects label h2 {
         font-size: 22px;
     }
 
@@ -422,22 +428,16 @@ footer {
     #project-1,
     #project-2,
     #project-3,
-    #project-4,
-    .proj-btn {
+    #project-4 {
         display: flex;
         width: 100%;
     }
 
-    /* Sets project images visible the whole time */
+    /* Sets project images visible the whole time and to fill the height of their div when taller than 340px due to text */
     #expand-toggle1:checked~#prj1-img,
     #expand-toggle2:checked~#prj2-img,
     #expand-toggle3:checked~#prj3-img,
-    #expand-toggle4:checked~#prj4-img {
-        height: auto;
-        min-height: 340px;
-    }
-
-    /* Sets proj image to fill the height of their div when taller than 340px due to text */
+    #expand-toggle4:checked~#prj4-img,
     #prj1-img,
     #prj2-img,
     #prj3-img,
@@ -447,13 +447,34 @@ footer {
         flex: 1 0 300px;
     }
 
+    /* sets project heading visible */
+    .prj-txt h2 {
+        display: contents;
+    }
+
+    /* add margin to project text division */
+    .prj-txt {
+        margin: 1rem;
+    }
+
+    #expand-btn1,
+    #expand-btn2,
+    #expand-btn3,
+    #expand-btn4 {
+        display: none;
+    }
+
     /* Sets project text visible the whole time */
     .expandable1,
     .expandable2,
     .expandable3,
-    .expandable4 {
+    .expandable4,
+    #expand-toggle1:checked~* .expandable1,
+    #expand-toggle2:checked~* .expandable2,
+    #expand-toggle3:checked~* .expandable3,
+    #expand-toggle4:checked~* .expandable4 {
         display: block;
-        margin: 1rem;
+        margin: 1rem 0;
     }
 
     .prj-txt {
