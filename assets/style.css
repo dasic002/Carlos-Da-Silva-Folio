@@ -151,7 +151,7 @@ main {
 
 #welcome-msg p {
     padding-top: .5rem;
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 
 /* PROJECTS SECTION */
@@ -243,7 +243,7 @@ main {
 }
 
 .prj-txt {
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 
 /* heading of projects is invisible until display is wide enough and we would want the heading to move to project text area */
@@ -513,6 +513,46 @@ footer {
     #project-4 {
         display: inline-block;
         margin: 1rem;
+    }
+
+    #contact-us {
+        padding: 2vw;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    /* increase welcome section in height in proportion to screen width */
+    #welc-gradient {
+        height: 19.5vw;
+    }
+    
+    #welcome-img {
+        height: 19.5vw;
+    }
+
+    #welcome-msg {
+        top: 5.86vw;
+    }
+    
+    #tag {
+        top: auto;
+        bottom: 0;
+    }
+
+    /* Sets project images to increase in size as the width of the display grows */
+    #expand-toggle1:checked~#prj1-img,
+    #expand-toggle2:checked~#prj2-img,
+    #expand-toggle3:checked~#prj3-img,
+    #expand-toggle4:checked~#prj4-img,
+    #prj1-img,
+    #prj2-img,
+    #prj3-img,
+    #prj4-img {
+        height: 14vw;
+    }
+
+    html {
+        font-size: 0.625vw;
     }
 }
 
