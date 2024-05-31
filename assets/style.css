@@ -302,6 +302,10 @@ main {
     display: block;
 }
 
+#contact-form textarea {
+    resize: none;
+}
+
 #contact-btns {
     font-size: 2rem;
     display: flex;
