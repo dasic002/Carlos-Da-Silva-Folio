@@ -7,9 +7,47 @@ The business goals of this website are:
 - Intrigue visitors with the projects undertaken and make them want to look into the challenges overcome
 - Bring in revenue through increased contact from prospective clients looking to collaborate
 
-<!-- For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.  -->
+[View the deployed website here](https://dasic002.github.io/Carlos-Da-Silva-Folio/index.html)
 
-<!-- ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png) -->
+![Responsive design mockup](documentation/ResponsiveDesign.PNG)
+
+
+## UX - User Experience
+
+### User stories
+
+As a **Client** or **Employer**, I need to see some of Carlos' work to feel assured he has the skillset I'm looking for to contribute in my projects. Would also need an easy way to reach out to Carlos to discuss my project.
+
+As a **Recruiter**, I need to see Carlos' employment history, ideally via LinkedIn or downloadble CV and be able to get in touch with him.
+
+### Strategy
+
+Build a simple and sophisticated looking website that showcases enough of my work in a seamless and intuitive format that encourages the visitor to reach out.
+
+### Scope
+
+I want to give the visitor, be a prospective Client/Employer or Recruiter a brief example of projects I've taken part of and my skillset. Leaving them wanting to explore my profiles and get in touch with me.
+
+### Structure
+
+Simply 3 sections in one single page:
+
+  1) **Welcome/introduction**
+    Welcoming the visitor with a friendly face and brief introduction to me.
+
+  2) **Projects**
+    A short description of projects I've undertaken with a photo of each.
+
+  3) **Contact Us**
+    A contact form and other platforms available for the visitor to choose from in how to reach out.
+
+### Skeleton
+
+<!-- Move mockups here -->
+
+### Surface
+
+Black and dark red colour scheme was used to create a comfortable viewing experience and draw more attention to the subject elements, my work and how to get hold of me.
 
 ## Features 
 
