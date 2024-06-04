@@ -156,7 +156,7 @@ main {
 
 /* PROJECTS SECTION */
 /* adjusts H2 font size in project labels for small displays, needs to revert to fixed once on tablets */
-#projects label h2 {
+#projects h2 {
     font-size: 5vw;
 }
 
@@ -177,8 +177,21 @@ main {
 .expandable1,
 .expandable2,
 .expandable3,
-.expandable4 {
+.expandable4,
+#expand-btn1 i,
+#expand-btn2 i,
+#expand-btn3 i,
+#expand-btn4 i {
     display: none;
+}
+
+/* right justify the X icon */
+#expand-toggle1:checked~ #expand-btn1 i,
+#expand-toggle2:checked~ #expand-btn2 i,
+#expand-toggle3:checked~ #expand-btn3 i,
+#expand-toggle4:checked~ #expand-btn4 i {
+    display: contents;
+    text-align: end;
 }
 
 /* Style the button */
@@ -186,12 +199,12 @@ main {
 #expand-btn2,
 #expand-btn3,
 #expand-btn4 {
-    display: block;
+    /* display: block; */
     position: absolute;
     height: 14vw;
     padding: 0 1rem;
-    top: 0;
-    bottom: 0;
+    /* top: 0; */
+    /* bottom: 0; */
     left: 0;
     right: 0;
     display: flex;

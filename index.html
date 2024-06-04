@@ -33,7 +33,7 @@
         <section id="welcome">
             <h1 class="hidden">Welcome</h1>
             <div id="welc-gradient"></div>
-            <div id="welcome-img"
+            <div id="welcome-img" role="img"
                 aria-label="photo of Carlos in a light denim shirt stading sideways and facing forward with a kind face and crossed arms">
 
             </div>
@@ -51,10 +51,16 @@
                 <input type="reset" id="reset">
                 <div id="project-1">
                     <input type="radio" name="toggles" id="expand-toggle1" />
-                    <label for="expand-toggle1" id="expand-btn1">
-                        <h2>McDs drive thru handle</h2><label for="reset" class="expandable1"><h2><i
-                                class="fa-solid fa-xmark"></i></h2></label>
-                    </label>
+                    <div id="expand-btn1">
+                        <h2>
+                            <label for="expand-toggle1">
+                                McDs drive thru handle
+                            </label>
+                        </h2>
+                        <label for="reset">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                    </div>
                     <div id="prj1-img"></div>
                     <div class="prj-txt">
                         <h2 class="proj-title">McDs drive thru handle</h2>
@@ -68,10 +74,16 @@
                 </div>
                 <div id="project-2">
                     <input type="radio" name="toggles" id="expand-toggle2" />
-                    <label for="expand-toggle2" id="expand-btn2">
-                        <h2>Electronic Kensington Slot locks</h2><label for="reset" class="expandable2"><h2><i
-                                class="fa-solid fa-xmark"></i></h2></label>
-                    </label>
+                    <div id="expand-btn2">
+                        <h2>
+                            <label for="expand-toggle2">
+                                Electronic Kensington Slot locks
+                            </label>
+                        </h2>
+                        <label for="reset">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                    </div>
                     <div id="prj2-img"></div>
                     <div class="prj-txt">
                         <h2 class="proj-title">Electronic Kensington Slot locks</h2>
@@ -91,10 +103,16 @@
                 </div>
                 <div id="project-3">
                     <input type="radio" name="toggles" id="expand-toggle3" />
-                    <label for="expand-toggle3" id="expand-btn3">
-                        <h2>Unique Secure</h2><label for="reset" class="expandable3"><h2><i
-                                class="fa-solid fa-xmark"></i></h2></label>
-                    </label>
+                    <div id="expand-btn3">
+                        <h2>
+                            <label for="expand-toggle3">
+                                Unique Secure
+                            </label>
+                        </h2>
+                        <label for="reset">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                    </div>
                     <div id="prj3-img"></div>
                     <div class="prj-txt">
                         <h2 class="proj-title">Unique Secure</h2>
@@ -113,10 +131,16 @@
                 </div>
                 <div id="project-4">
                     <input type="radio" name="toggles" id="expand-toggle4" />
-                    <label for="expand-toggle4" id="expand-btn4">
-                        <h2>Self4000 Mount</h2><label for="reset" class="expandable4"><h2><i
-                                class="fa-solid fa-xmark"></i></h2></label>
-                    </label>
+                    <div id="expand-btn4">
+                        <h2>
+                            <label for="expand-toggle4">
+                                Self4000 Mount
+                            </label>
+                        </h2>
+                        <label for="reset">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                    </div>
                     <div id="prj4-img"></div>
                     <div class="prj-txt">
                         <h2 class="proj-title">Self4000 Mount</h2>
@@ -138,7 +162,8 @@
             <form action="https://formdump.codeinstitute.net" method="post" id="contact-form">
                 <h2>Let's work together!</h2>
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name" class="input-field" autocomplete="given-name" required>
+                <input type="text" id="first-name" name="first-name" class="input-field" autocomplete="given-name"
+                    required>
                 <br>
                 <label for="surname">Surname</label>
                 <input type="text" id="surname" name="surname" class="input-field" required>
