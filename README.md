@@ -47,11 +47,29 @@ Simply 3 sections in one single page:
 
 ### Surface
 #### Colour theme
-For the minimalistic modern style, a monochromatic pallete composed of virtually full Black and light greys with simply and dark red colour for an accent. This pallete was used to create a comfortable viewing experience and draw more attention to the subject elements, namely my work and how to get hold of me.
+For the minimalistic modern style, a monochromatic palette composed of virtually full Black and light greys with simply and dark red colour for an accent. This palette was used to create a comfortable viewing experience and draw more attention to the subject elements, namely my work and how to get hold of me.
 
 ![Colour theme produced using Adobe Color tool](documentation/adobe-color_folio-theme.PNG)
 
+#### Typography
 
+## Technologies
+- Languages used:
+  - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [GitPod](https://www.gitpod.io/) - Cloud-based IDE to edit code and Git version control.
+- [Github](https://github.com/) - to store and publish the project.
+- [Google Fonts](https://fonts.google.com/) - to import fonts "Comfortaa" and "Dosis" into the website's CSS.
+- [Font Awesome](https://fontawesome.com/) - to import icons for more recognizable action buttons. It has been used in:
+  - The expandable Nav bar on narrow displays.
+  - The X icon in expandable projects section.
+  - The clear and submit form.
+  - The contact platforms in the footer.
+- [Am I Responsive](https://ui.dev/amiresponsive) - to visualise the website in various display sizes.
+- [Adobe Color](https://color.adobe.com/create/color-wheel) - to generate the colour palette and Accessibility tools checking for contrast for legibility and color blind viewing.
+- [Tiny PNG](https://tinypng.com/) - to compress images for faster page loading.
+- [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML code.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS code.
 
 ## Features 
 
