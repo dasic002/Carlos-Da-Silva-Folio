@@ -253,18 +253,21 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdasic002.github.io%2FCarlos-Da-Silva-Folio%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdasic002.github.io%2FCarlos-Da-Silva-Folio%2Findex.html)<br>
   ![HTML valid screenshot](documentation/Test-HTML_Valid.PNG)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdasic002.github.io%2FCarlos-Da-Silva-Folio%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdasic002.github.io%2FCarlos-Da-Silva-Folio%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)<br>
   ![CSS valid screenshot](documentation/Test-CSS_valid.PNG) 
 - Accessibility
   - Running the site through lighthouse analysis confirms the colours and fonts used legible and accessible on either:
-    - Mobile:
-    ![Lighthouse mobile analysis](documentation/Lighthouse_analysis-Mobile.PNG)
-    - Desktop:
-    ![Lighthouse desktop analysis](documentation/Lighthouse_analysis-Desktop.PNG)
-  - 
+    - Mobile:<br>
+  ![Lighthouse mobile analysis](documentation/Lighthouse_analysis-Mobile.PNG)
+ 
+    - Desktop:<br>
+  ![Lighthouse desktop analysis](documentation/Lighthouse_analysis-Desktop.PNG)
+
+  - Running the site through [WAVE acessibility tool](https://wave.webaim.org/report#/https://dasic002.github.io/Carlos-Da-Silva-Folio/index.html) showed no obvious errors after some improvements were made.<br>
+  ![Wave accessibility evaluation results](documentation/Test-wave-accessibility.PNG)
 
 
 ### Unfixed Bugs
