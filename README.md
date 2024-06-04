@@ -46,8 +46,12 @@ Simply 3 sections in one single page:
 <!-- Move mockups here -->
 
 ### Surface
+#### Colour theme
+For the minimalistic modern style, a monochromatic pallete composed of virtually full Black and light greys with simply and dark red colour for an accent. This pallete was used to create a comfortable viewing experience and draw more attention to the subject elements, namely my work and how to get hold of me.
 
-Black and dark red colour scheme was used to create a comfortable viewing experience and draw more attention to the subject elements, my work and how to get hold of me.
+![Colour theme produced using Adobe Color tool](documentation/adobe-color_folio-theme.PNG)
+
+
 
 ## Features 
 

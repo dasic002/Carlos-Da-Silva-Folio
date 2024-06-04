@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #e0e0e0;
-    background-color: #000000;
+    background-color: #0d0707;
     font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
 
@@ -62,7 +62,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 5px 1rem 0;
-    background-image: linear-gradient(to bottom, #000000, #000000, rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(to bottom, #0d0707, #0d0707, rgba(0, 0, 0, 0.5));
 }
 
 #nav-toggle:checked~#menu {
@@ -134,7 +134,7 @@ main {
     top: 370px;
     padding: 1rem 0 0.5rem 1rem;
     font-size: 2rem;
-    color: #000000;
+    color: #0d0707;
     z-index: 3;
     background-color: rgba(224, 224, 224, 0.2);
     height: 106px;
@@ -144,7 +144,7 @@ main {
     /* position: absolute; */
     padding: 1rem;
     background-color: #e0e0e0;
-    color: #000000;
+    color: #0d0707;
     z-index: 3;
     /* height: 100px; */
 }
@@ -278,7 +278,7 @@ main {
 
 #contact-form {
     /* display: block; */
-    background-color: rgba(180, 37, 33, 0.5);
+    background-color: rgba(140, 13, 13, .8);
     /* width: 100%; */
     padding: 1rem;
 }
@@ -292,7 +292,7 @@ main {
 }
 
 .input-field {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     color: inherit;
     width: 99%;
     padding: 5px;
@@ -319,7 +319,7 @@ main {
 
 /* Footer */
 footer {
-    background-image: linear-gradient(to top, rgb(180, 37, 33), rgb(58, 12, 10));
+    background-image: linear-gradient(to top, #8c0d0d, #bf2a2a);
     min-height: 2rem;
 }
 
@@ -338,7 +338,7 @@ footer {
 }
 
 #contact-platforms i:hover {
-    background-color: #000000;
+    background-color: #0d0707;
     border: 1px solid #e0e0e0;
     border-radius: 50%;
 }
