@@ -106,7 +106,7 @@ main {
 }
 
 #welc-gradient {
-    background-image: radial-gradient(circle, #c63532, #b42c27, #a3221d, #921913, #810e09);
+    background-image: radial-gradient(circle, #c63532, /*#b42c27, #a3221d, #921913,*/ #810e09);
     position: relative;
     display: block;
     height: 500px;
@@ -117,7 +117,7 @@ main {
 #welcome-img {
     display: block;
     /* background-image: radial-gradient(circle, #c63532, #b42c27, #a3221d, #921913, #810e09); */
-    background: url(../assets/images/welcome-img.png) no-repeat center bottom / cover;
+    background: url(../assets/images/welcome-img.webp) no-repeat center bottom / cover;
     height: 500px;
     min-height: 500px;
     width: 100%;
@@ -253,19 +253,19 @@ main {
 }
 
 #prj1-img {
-    background: url(../assets/images/proj-1-a.jpg) no-repeat center center / cover;
+    background: url(../assets/images/proj-1-a.webp) no-repeat center center / cover;
 }
 
 #prj2-img {
-    background: url(../assets/images/proj-2-a.png) no-repeat center center / cover;
+    background: url(../assets/images/proj-2-a.webp) no-repeat center center / cover;
 }
 
 #prj3-img {
-    background: url(../assets/images/proj-3-a.png) no-repeat center center / cover;
+    background: url(../assets/images/proj-3-a.webp) no-repeat center center / cover;
 }
 
 #prj4-img {
-    background: url(../assets/images/proj-4-a.jpg) no-repeat center center / cover;
+    background: url(../assets/images/proj-4-a.webp) no-repeat center center / cover;
 }
 
 
