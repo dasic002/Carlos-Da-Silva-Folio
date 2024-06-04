@@ -224,7 +224,7 @@ main {
 #expand-toggle4:checked~#expand-btn4 {
     top: auto;
     bottom: auto;
-    font-style: strong;
+    /* font-style: strong; */
 }
 
 #project-1,
