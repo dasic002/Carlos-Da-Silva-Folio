@@ -92,7 +92,13 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
   ![Welcome section desktop](documentation/Feat-WelcomeDesktop.PNG)
 
 - __Projects Section__
-
+  - This section contains a photo and brief given to 4 projects I have worked on, that compose the portfolio.
+  - On mobile displays, each project is seen as a short wide section that displays the clipped image in the background with a smoked overlay and title in white text. This is to reduce the need to scroll through a lot of info on a small display before reaching the contact form and footer. Also, provides focus on the project being viewed. On tapping the particular project title, the section expands to expose the project image, the description of the project below and a closing icon on the top right corner. The visitor does not need to use the closing icon to expand the next project, they can tap the other project title to expand it and it will close the other.<br>
+  ![Project section collapsed](documentation/Feat-ProjMobileCollapsed.PNG)  **>**  ![Project section expanded](documentation/Feat-ProjMobileExpanded.PNG)
+  - For displays 600px wide and greater, the projects are displayed as image to the left and text to the right, getting rid of the collapsible sections. On a display of that size the content is not too long to be able to scroll through easily.<br>
+  ![Project section on 600px wide](documentation/Feat-Proj600pxWd.PNG)
+  - For displays 1500px wide and greater, the projects are displayed across the whole width of the view port, following a format of images in a row and description below. This makes use of the available space to maintain a comfortable reading experience of the website, as a whole viewport wide section per project would seem redundant for the content and harder to follow.<br>
+  ![Project section on 1500px wide](documentation/Feat-Proj1500pxWd.PNG) 
 
 - __Contact us form__
 
