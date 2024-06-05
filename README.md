@@ -73,37 +73,28 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 
 ## Features 
 
-<!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
-
 ### Existing Features
 
 - __Navigation Bar__
+  - The navigation bar sits across the the top of the page, it is fixed in position so no matter where the visitor has scrolled down to it is always available.
+  - The links included **Home**, **Projects** and **Contact us** navigate to sections of the page, rather than to separate pages.
+  - Aligned to the top left corner, on narrow displays it features as an expandable "burger" icon menu.<br>
+  ![Navigation on Mobile - collapsed](documentation/Feat-navCollapsed.PNG) ![Navigation on Mobile - expanded](documentation/Feat-navExpanded.PNG)
+  - On wider displays, the navigation bar expands to display the links at all time.<br>
+  ![Navigation on wider displays](documentation/Feat-navFixed.PNG)
+  - The virtually white text over the fading black background remains contrasting enough to be legible and giving the sophisticated touch to the site.
 
- <!-- - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+- __The landing page - Welcome__
+  - The landing page consists of photograph of myself with my name as text overlay.
+  - On mobile displays, the very next division below contains a message welcoming the visitor to my portfolio and stating my profession and location to help the visitor quickly indentify the sites intent.<br>
+  ![Welcome section mobile](documentation/Feat-WelcomeMobile.PNG)
+  - On displays wider than 600px, the division with the welcome message becomes a floating bubble next to my photo, so there is not too much redundant empty space in the welcome section.<br>
+  ![Welcome section desktop](documentation/Feat-WelcomeDesktop.PNG)
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png) -->
+- __Projects Section__
 
-- __The landing page image__
-<!-- 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png) -->
-
-<!-- - __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png) -->
+- __Contact us form__
 
 - __The Footer__ 
 <!-- 
@@ -112,22 +103,6 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) -->
 
-- __Projects Page__
-<!-- 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) -->
-
-- __Contact Us Page__
-<!-- 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future: -->
 
 ### Features Left to Implement
 
