@@ -43,6 +43,17 @@ Simply 3 sections in one single page:
 
 ### Skeleton
 
+[Landing Page](documentation/Folio-landing_page.jpg)
+
+[Welcome section](documentation/Folio-welcome_section.jpg)
+
+[Project snippets](documentation/Folio-project_snippet_section.jpg)
+
+[Footer](documentation/Folio-footer_section.jpg)
+
+[Projects page](documentation/Folio-Projects_page.jpg) (planned feature only)
+
+[Contact us page](documentation/Folio-ContactUs_Page.jpg) (planned feature only)
 <!-- Move mockups here -->
 
 ### Surface
@@ -51,7 +62,7 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 
 ![Colour theme produced using Adobe Color tool](documentation/adobe-color_folio-theme.PNG)
 
-#### Typography
+<!-- #### Typography -->
 
 ## Technologies
 - Languages used:
@@ -70,6 +81,7 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 - [Tiny PNG](https://tinypng.com/) - to compress images for faster page loading.
 - [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML code.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS code.
+
 
 ## Features 
 
@@ -152,62 +164,53 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 - __Nav Bar - turning fully black on expanding__
-The checkbox input to toggle open the menu works, but to create the appearance that the fade expands creating a solid black background across the very top does not seem to accept addressing the header to change its background-color to solid back. Need to remind myself how to add an object matching the size of the header that sits behind the hamburger icon.
+The intended look was to have this floating hamburger icon that when clicked the menu expands with a black to clear gradient from the top. The checkbox input to toggle open the menu works, but does not seem to accept addressing the whole header section to create this effect. The current compromise created is to have a permanent black to clear gradient from the top that extends as high as the section is, i.e.: when collapsed it is only as high as necessary for the hamburger icon and has high as the list menu when it is expanded. 
 
 - __Nav Bar - using section IDs on nav list__
-Using Section IDs for the navigation of the site means the menu does not toggle off on clicking them. Tried using label element to trigger the checkbox that expands the nav menu:
-  - wrapping the visible text of the anchor toggles the checkbox, but does not navigate;
-  - wrapping the anchor, navigates but does toggle the checkbox.
-Might be able to improve UI by substituting the hamburger/bars icon on expading the menu with a X icon.
+Using Section IDs for the navigation of the site means the menu does not toggle off on clicking them. Tried using the label element to wrap the anchors to trigger the checkbox that expands the nav menu:
+  - wrapping the visible text of the anchor with the label toggles the checkbox, but does not navigate to their section at the same time;
+  - wrapping the anchor with the label, navigates but does toggle the checkbox.
+The alternative to improve UI is having the hamburger/bars icon replaved with a X icon when the menu is expanded.
 
-- __Google fonts - Comfortaa not loading__
-The imported font Comfortaa does not seem to have loaded correctly.
-
-<!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.  -->
 
 ## Deployment
 
-<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages following the steps outlined below:
+- Log in to GitHub and navigate to the Github Repository.
+- On the Repository page, select the settings icon just above the Repository title.
+- In the sidebar to the left, select "Pages" under the "Code and automation" section.
+- Under **Source**, select the "Deploy from a branch" from the dropdown menu, then under **Root** select "Main branch" from that drowndown menu.
+- Make sure the "/root" is selected for the folder and click Save.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The page will be automatically refreshed and a link to the deployed site will be available on a ribbon display just at the top of the GitHub Pages webpage.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html -->
+The deployed page can be found [here.](https://dasic002.github.io/Carlos-Da-Silva-Folio/index.html)
 
 
 ## Credits 
 
-<!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.  -->
-
-<!-- You can break the credits section up into Content and Media, depending on what you have included in your project.  -->
-
 ### Content 
-
 - Icons used in the footer and nav bar were sourced from [Font Awesome](https://fontawesome.com/)
-<!-- - The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) -->
+- Fonts used in the whole site sourced from [Google fonts](https://fonts.google.com/)
+- All text written by developper
 
 ### Media
-<!-- 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!  -->
+- Photo used in welcome section taken by Model bookings studio, paid for rights by the developper.
+- All other images taken/generated by the developper.
 
 ### Code
 - CSS and HTML code for the nav bar in the header was originally taken from the [Love Running walkthrough project](https://github.com/dasic002/Love-Running), then CSS was altered for the intended look.
 - CSS and HTML code for the function of expanding and collapsing of project snippets sourced from [Web mdn docs references for the pseudo :checked](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked).
+- Guidance on how to increase the general font-size viewed on the page as display goes beyond 4K resolution. [Learnt about html{font-size: ;} function here](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+- Guidance on how to prevent the contact form text area from being resized. [Learnt about textarea{resize: none;} function here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- Guidance on using background function for the images under a division. [background shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
 
 ### Acknoledgement
+- My mentor Brian Macharia for his insight, guidance and words of encouragement.
 
+<!--## Other General Project Advice
 
-## Other General Project Advice
-
-<!-- Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+ Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
 - One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
   - Make sure to keep the messages in the imperative mood 

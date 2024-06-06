@@ -41,6 +41,7 @@ h3 {
     display: none;
 }
 
+/* styling the nav menu */
 #menu {
     list-style-type: none;
     font-size: 120%;
@@ -71,6 +72,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* ^ from Love Running */
 
 /* Main */
@@ -78,11 +80,13 @@ main {
     flex: 1 0 auto;
 }
 
+/* defining the welcome section */
 #welcome {
     display: block;
     position: relative;
 }
 
+/* gradient background to the welcome image */
 #welc-gradient {
     background-image: radial-gradient(circle, #c63532, #810e09);
     position: relative;
@@ -91,6 +95,7 @@ main {
     z-index: 1;
 }
 
+/* welcome image  */
 #welcome-img {
     display: block;
     background: url(../assets/images/welcome-img.webp) no-repeat center bottom / cover;
@@ -102,6 +107,7 @@ main {
     z-index: 2;
 }
 
+/* Carlos Da Silva overlay on welcome image */
 #tag {
     position: absolute;
     left: 0;
@@ -115,6 +121,7 @@ main {
     height: 106px;
 }
 
+/* Welcome message stylings */
 #welcome-msg {
     padding: 1rem;
     background-color: #e0e0e0;
@@ -159,10 +166,10 @@ main {
 }
 
 /* right justify the X icon */
-#expand-toggle1:checked~ #expand-btn1 i,
-#expand-toggle2:checked~ #expand-btn2 i,
-#expand-toggle3:checked~ #expand-btn3 i,
-#expand-toggle4:checked~ #expand-btn4 i {
+#expand-toggle1:checked~#expand-btn1 i,
+#expand-toggle2:checked~#expand-btn2 i,
+#expand-toggle3:checked~#expand-btn3 i,
+#expand-toggle4:checked~#expand-btn4 i {
     display: contents;
     text-align: end;
 }
@@ -217,6 +224,7 @@ main {
     margin: 5px 0;
 }
 
+/* setting the project image height when collapsed */
 #prj1-img,
 #prj2-img,
 #prj3-img,
@@ -224,16 +232,18 @@ main {
     height: 14vw;
 }
 
+/* make project text more legible with added spacing */
 .prj-txt {
     line-height: 1.5;
 }
 
-/* heading of projects is invisible until display is wide enough and we would want the heading to move to project text area */
+/* heading of projects is invisible until display is wide enough and we would want the heading to move to project text area - not the same text used in the clickable projects label */
 .prj-txt h2 {
     display: none;
     margin: 1rem;
 }
 
+/* Setting projects images */
 #prj1-img {
     background: url(../assets/images/proj-1-a.webp) no-repeat center center / cover;
 }
@@ -267,7 +277,7 @@ main {
     margin-bottom: 15px;
 }
 
-#contact-form label{
+#contact-form label {
     display: block;
 }
 
@@ -282,6 +292,7 @@ main {
     display: block;
 }
 
+/* so textarea cannot be resized and break the look of the form */
 #contact-form textarea {
     resize: none;
 }
@@ -330,6 +341,8 @@ footer {
 
 }
 
+
+/* MEDIA QUERIES */
 @media screen and (min-width: 425px) {
 
     /* Header */
@@ -352,8 +365,10 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
     /* end of nav bar styles from Love Running */
 
+    /* Limiting the growth of this section as the screen is wide enough and these do not need to adjust the size to fit the content */
     #prj1-img,
     #prj2-img,
     #prj3-img,
@@ -382,10 +397,12 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
+    /* Move welcome image to the right to make space for welcome message */
     #welcome-img {
         background-position: 75%;
     }
 
+    /* welcome message moves to overlay welcome image */
     #welcome-msg {
         position: absolute;
         left: 5vw;
@@ -394,7 +411,7 @@ footer {
         border-radius: 0.75rem;
     }
 
-    /* Each projects set to flex */
+    /* Each projects set to flex so we can display project image and text side by side*/
     #project-1,
     #project-2,
     #project-3,
@@ -427,6 +444,7 @@ footer {
         margin: 1rem;
     }
 
+    /* these are no longer needed at this screen width */
     #expand-btn1,
     #expand-btn2,
     #expand-btn3,
@@ -459,15 +477,18 @@ footer {
 }
 
 @media screen and (min-width: 1500px) {
+    /* adjust welcome image to bring closer to center again and bring focus */
     #welcome-img {
         background-position: 60%;
     }
 
+    /* adjust welcome message position and size */
     #welcome-msg {
         left: 18vw;
         width: 29vw;
     }
 
+    /* Adjusts parent to project snippets so they take up the width of the screen and display in line */
     #projects form {
         display: flex;
     }
@@ -490,11 +511,12 @@ footer {
 }
 
 @media screen and (min-width: 2560px) {
+
     /* increase welcome section in height in proportion to screen width */
     #welc-gradient {
         height: 19.5vw;
     }
-    
+
     #welcome-img {
         height: 19.5vw;
     }
@@ -502,7 +524,7 @@ footer {
     #welcome-msg {
         top: 5.86vw;
     }
-    
+
     #tag {
         top: auto;
         bottom: 0;
