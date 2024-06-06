@@ -101,123 +101,21 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
   ![Project section on 1500px wide](documentation/Feat-Proj1500pxWd.PNG) 
 
 - __Contact us form__
+  - The contact form offers a means for the visitor to get in touch with myself directly from the website, prompting the visitor to introduce themselves and to describe what project they may be looking to collaborate on. 
+  - The form collects First name, Surname, email address, phone number (not a required field) and body of text for a message.
+  - It includes two buttons replaced with icons, reset form shown as an eraser icon, whilst the submit button is a paper airplane icon.
+  ![Contact form](documentation/Feat-ContactForm.PNG)
 
 - __The Footer__ 
-<!-- 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) -->
-
+  - The footer contains links to my company's instagram page, my personal Linkedin profile, my company's whatsapp contact and etsy shop.
+  - Should the visitor prefer to contact outside of the form, they are welcome to reach out via these means.
+  ![Footer links](documentation/Feat-Footer.PNG)
 
 ### Features Left to Implement
-
-- __Landing page__
-
-![sketched mockup of landing page](documentation/Folio-landing_page.jpg)
-
-The landing will bring up a photo of Carlos with name and a nav bar at the top.
-  - __Nav bar__
-    - On mobile screens
-      - This menu will appear as discreet hamburger icon on the top left corner, overlaying the content at all time.
-    - On tablets and larger
-      - The links will be visible along the top edge.
-  - __Welcome image__
-    - On mobile screens
-      - Simply a photo of Carlos with name on the bottom left corner of the photo.
-      - The photo will be shorter than the device view so that the next section is just visible and intuitively prompt the visitor to scroll.
-    - On tablets and larger
-      - The photo will align to the right, making room for the welcome section to fit on the left.
-
-- __Welcome section__
-
-![sketched mockup of welcome section](documentation/Folio-welcome_section.jpg)
-
-  A section containing a short message welcoming visitors to the website.
-
-  - On mobile screens
-    - As the visitor scrolls down to view this section.
-    - This section will be short enough to make the first project snippet visible and encourage scrolling.
-  - On tablets and larger
-    - This section will share the width of the screen with the welcome image, it will sit to the left of the image.
-
-- __Project snippet section__
-
-![sketched mockup of project snippet section](documentation/Folio-project_snippet_section.jpg)
-
-A section with 3 or 4 divs containing a project hero image, project name and a short description of the project. The intent is to make these clickable to take the visitor over to the projects page with the given project in view.
-
-  - On mobile screens
-    - The divisions will be composed of hero image first and followed by project name and description, visible as the visitor scrolls through.
-  - On tablets
-    - The image and description will stand side by side to take up the whole width.
-    - likely alternating the side the image sits on.
-  - On laptops or larger
-    - The divisions will display 2 project snippets across the display width.
-
-- __Contact section__
-
-![sketched mockup of the contact redirect and footer section](documentation/Folio-footer_section.jpg)
-
-   - __Contact us__
-   At the bottom of the page, the last section before the footer will invite the visitor to reach out. This section will be clickable to redirect the visitor to the Contact Us page. This present itself as a mail icon centered in all screens, possibly only subtelly increasing in size when viewed in larger displays.
-
-   - __Footer__
-   The footer will be visible on all pages and include clickable icons that redirect the visitor to our:
-    - Business Instagram profile
-    - Personal LinkedIn profile
-    - Whatapp Business contact
-    - Business Etsy profile
-
-- __Projects page__
-
-![sketched mockup of the Projects page](documentation/Folio-Projects_page.jpg)
-
-  - __Nav bar__
-    - visible as in the landing page
-
-  - __Project section__
-    Currently, unsure on how much information to put per project, so unsure on the space we will need. Thinking mobile first, it certainly will be too much to display at once, so looking to create sections that expand.
-    
-    - On mobile screens and tablets
-      - full width divisions, in column formation containing the hero image with a transparent black background over the top, so the project name is legible.
-      - as the visitor clicks the section, it expands to reveal the project information.
-      - an "X" will be present to give the option to close the section.
-      - Unsure if possible at this moment, but the ideal would be that only one project information is visible at a given time. So should another project section be opened, all others are closed, but also that when the close "X" is clicked, all projects are closed. I suspect the easiest way to implement this is creating an invisible checkbox that when checked to open, it makes the value of the others unchecked. And unchecking it via the "X" icon only closes the relevant section.
-    - On Laptops and larger
-      - These divisions will stand 4 projects side by side across the width of the display.
-      - When clicked on, the information expands below them.
-  
-  - __Contact section__
-    A repeat of what is included on the landing/Home page.
-
-- __Contact us page__
-
-![sketched mockup of the contact us page with form](documentation/Folio-ContactUs_Page.jpg)
-
-  - __Nav bar__
-    Remains the same for consistency
-
-  - __Form__
-    The form on the contact page will include fields for the following:
-    - Name - required
-    - Email - required
-    - Phone number
-    - Message - required
-    - Clear form - reset button
-    - Send - submit button
-
-    How will it look:
-    - On mobile screens
-      - taking up the full width with fields in a column formation.
-    - On tablets and larger
-      - Name/Email/Phone number fields may be placed in one line, whilst the text area box for the message expands.
-
-    On submission of the form, we need to provide validation of data being sent, is it possible to use CI's formdump to feedback information captured correctly in an iframe?
-    That could be laid out as our page having the mail icon, with a message thanking the visitor for reaching out and someone will be in touch soon, and below that we can see the iframe with the formdump to provide that validation.
-
-  - __Footer__
-    Remains the same for consistency 
+- Navigation hamburger icon to change to a cross when expanded to give a visual clue on how to close the menu.
+- Make the navigation menu collapse on clicking a link that redirects to section on page.
+- Create a projects page that includes a lot more detail on the projects described in the project section. When a visitor expands a project there could be a link for "More >>" which redirects to the section in the projects page that shows more information.
+- A "thank you" message to replace the contact form when the form gets submitted successfully and that the form contents get forwarded to my email address to contact back.
 
 
 ## Testing 
