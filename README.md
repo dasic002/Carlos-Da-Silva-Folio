@@ -18,7 +18,7 @@ The business goals of this website are:
 
 As a **Client** or **Employer**, I need to see some of Carlos' work to feel assured he has the skillset I'm looking for to contribute in my projects. Would also need an easy way to reach out to Carlos to discuss my project.
 
-As a **Recruiter**, I need to see Carlos' employment history, ideally via LinkedIn or downloadble CV and be able to get in touch with him.
+As a **Recruiter**, I need to see Carlos' employment history, ideally via LinkedIn or downloadable CV and be able to get in touch with him.
 
 ### Strategy
 
@@ -77,7 +77,7 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
   - The contact platforms in the footer.
 - [FavIcon generator](https://favicon.io/) - used to create the favicons to embed on our site.
 - [Am I Responsive](https://ui.dev/amiresponsive) - to visualise the website in various display sizes.
-- [Adobe Color](https://color.adobe.com/create/color-wheel) - to generate the colour palette and Accessibility tools checking for contrast for legibility and color blind viewing.
+- [Adobe Color](https://color.adobe.com/create/color-wheel) - to generate the colour palette and Accessibility tools checking for contrast for legibility and colour-blind viewing.
 - [Tiny PNG](https://tinypng.com/) - to compress images for faster page loading.
 - [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML code.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS code.
@@ -88,24 +88,24 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 ### Existing Features
 
 - __Navigation Bar__
-  - The navigation bar sits across the the top of the page, it is fixed in position so no matter where the visitor has scrolled down to it is always available.
+  - The navigation bar sits across the top of the page, it is fixed in position so no matter where the visitor has scrolled down to it is always available.
   - The links included **Home**, **Projects** and **Contact us** navigate to sections of the page, rather than to separate pages.
   - Aligned to the top left corner, on narrow displays it features as an expandable "burger" icon menu.<br>
   ![Navigation on Mobile - collapsed](documentation/Feat-navCollapsed.PNG) ![Navigation on Mobile - expanded](documentation/Feat-navExpanded.PNG)
-  - On wider displays, the navigation bar expands to display the links at all time.<br>
+  - On wider displays, the navigation bar expands to display the links at all times.<br>
   ![Navigation on wider displays](documentation/Feat-navFixed.PNG)
   - The virtually white text over the fading black background remains contrasting enough to be legible and giving the sophisticated touch to the site.
 
 - __The landing page - Welcome__
   - The landing page consists of photograph of myself with my name as text overlay.
-  - On mobile displays, the very next division below contains a message welcoming the visitor to my portfolio and stating my profession and location to help the visitor quickly indentify the sites intent.<br>
+  - On mobile displays, the very next division below contains a message welcoming the visitor to my portfolio and stating my profession and location to help the visitor quickly identify the sites intent.<br>
   ![Welcome section mobile](documentation/Feat-WelcomeMobile.PNG)
   - On displays wider than 600px, the division with the welcome message becomes a floating bubble next to my photo, so there is not too much redundant empty space in the welcome section.<br>
   ![Welcome section desktop](documentation/Feat-WelcomeDesktop.PNG)
 
 - __Projects Section__
   - This section contains a photo and brief given to 4 projects I have worked on, that compose the portfolio.
-  - On mobile displays, each project is seen as a short wide section that displays the clipped image in the background with a smoked overlay and title in white text. This is to reduce the need to scroll through a lot of info on a small display before reaching the contact form and footer. Also, provides focus on the project being viewed. On tapping the particular project title, the section expands to expose the project image, the description of the project below and a closing icon on the top right corner. The visitor does not need to use the closing icon to expand the next project, they can tap the other project title to expand it and it will close the other.<br>
+  - On mobile displays, each project is seen as a short wide section that displays the clipped image in the background with a smoked overlay and title in white text. This is to reduce the need to scroll through a lot of info on a small display before reaching the contact form and footer. Also, provides focus on the project being viewed. On tapping the project title, the section expands to expose the project image, the description of the project below and a closing icon on the top right corner. The visitor does not need to use the closing icon to expand the next project, they can tap the other project title to expand it and it will close the other.<br>
   ![Project section collapsed](documentation/Feat-ProjMobileCollapsed.PNG)  **>**  ![Project section expanded](documentation/Feat-ProjMobileExpanded.PNG)
   - For displays 600px wide and greater, the projects are displayed as image to the left and text to the right, getting rid of the collapsible sections. On a display of that size the content is not too long to be able to scroll through easily.<br>
   ![Project section on 600px wide](documentation/Feat-Proj600pxWd.PNG)
@@ -124,7 +124,7 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
   ![Footer links](documentation/Feat-Footer.PNG)
 
 - __Error 404 Page__
-  - A page inkeeping with the style of the main page of the site to indicate the visitor as stumbles upon an non-existent URL of out site and to point them back to our homepage.<br>
+  - A page in keeping with the style of the main page of the site to indicate the visitor as stumbles upon an non-existent URL of our site and to point them back to our homepage.<br>
   ![Error 404 page](documentation/Feat-404_page.PNG)
 
 ### Features Left to Implement
@@ -152,7 +152,7 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
     - Desktop:<br>
   ![Lighthouse desktop analysis](documentation/Lighthouse_analysis-Desktop.PNG)
 
-  - Running the site through [WAVE acessibility tool](https://wave.webaim.org/report#/https://dasic002.github.io/Carlos-Da-Silva-Folio/index.html) showed no obvious errors after some improvements were made.<br>
+  - Running the site through [WAVE accessibility tool](https://wave.webaim.org/report#/https://dasic002.github.io/Carlos-Da-Silva-Folio/index.html) showed no obvious errors after some improvements were made.<br>
   ![Wave accessibility evaluation results](documentation/Test-wave-accessibility.PNG)
 
 ### Manual Testing
@@ -198,12 +198,12 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 |Contact form|Submit form without entering a message in the textarea field|Form prompts user to fill in field.|PASS|
 |Contact form|Submit form upon entering valid data|Page loads CI's formdump with data received.|PASS|
 |Contact form|Click on eraser icon|Form fields are cleared.|PASS|
-|Footer - hover|hover wih mouse over link icons|Icons should be surrounded with black circular background|PASS|
+|Footer - hover|hover the cursor over link icons|Icons should be surrounded with black circular background|PASS|
 |Footer - links|Click Instagram icon|Opens Studio Silva's instagram page on new tab.|PASS|
 |Footer - links|Click Linked in icon|Opens Carlos Da Silva's Linked In profile|PASS|
 |Footer - links|Click Whatsapp icon|Opens Studio Silva's WhatsApp contact|PASS|
 |Footer - links|Click Etsy icon|Opens Carlos' Etsy page|PASS|
-|Error 404 page|Enter non-existing url for the site|Calls up custom 404.html|PASS|
+|Error 404 page|Enter non-existing URL for the site|Calls up custom 404.html|PASS|
 |Error 404 page|on page loading|Footer is fixed at the bottom of the display, there is no length to scroll unless content is longer than viewport height.|PASS|
 |Error 404 page|Click on the Home button|Brings viewer back to main page|PASS|
 
@@ -212,14 +212,15 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 
 ### Unfixed Bugs
 
-- __Nav Bar - turning fully black on expanding__
+- __Nav Bar - turning fully black on expanding__<br>
 The intended look was to have this floating hamburger icon that when clicked the menu expands with a black to clear gradient from the top. The checkbox input to toggle open the menu works, but does not seem to accept addressing the whole header section to create this effect. The current compromise created is to have a permanent black to clear gradient from the top that extends as high as the section is, i.e.: when collapsed it is only as high as necessary for the hamburger icon and has high as the list menu when it is expanded. 
 
-- __Nav Bar - using section IDs on nav list__
+- __Nav Bar - using section IDs on nav list__<br>
 Using Section IDs for the navigation of the site means the menu does not toggle off on clicking them. Tried using the label element to wrap the anchors to trigger the checkbox that expands the nav menu:
-  - wrapping the visible text of the anchor with the label toggles the checkbox, but does not navigate to their section at the same time;
+  - wrapping the visible text of the anchor with the label toggles the checkbox, but does not navigate to their section at the same time.
   - wrapping the anchor with the label, navigates but does toggle the checkbox.
-Seems this requires some javascript to do this. Even the alternative of having the hamburger/bars icon replaved with a X icon when the menu is expanded seems to require javascript.
+
+  Seems this requires some javascript to do this. Even the alternative of having the hamburger/bars icon replaced with a X icon when the menu is expanded seems to require javascript.
 
 
 ## Deployment
@@ -228,7 +229,7 @@ The site was deployed to GitHub pages following the steps outlined below:
 - Log in to GitHub and navigate to the Github Repository.
 - On the Repository page, select the settings icon just above the Repository title.
 - In the sidebar to the left, select "Pages" under the "Code and automation" section.
-- Under **Source**, select the "Deploy from a branch" from the dropdown menu, then under **Root** select "Main branch" from that drowndown menu.
+- Under **Source**, select the "Deploy from a branch" from the dropdown menu, then under **Root** select "Main branch" from that dropdown menu.
 - Make sure the "/root" is selected for the folder and click Save.
 
 The page will be automatically refreshed and a link to the deployed site will be available on a ribbon display just at the top of the GitHub Pages webpage.
@@ -241,11 +242,11 @@ The deployed page can be found [here.](https://dasic002.github.io/Carlos-Da-Silv
 ### Content 
 - Icons used in the footer and nav bar were sourced from [Font Awesome](https://fontawesome.com/)
 - Fonts used in the whole site sourced from [Google fonts](https://fonts.google.com/)
-- All text written by developper
+- All text written by developer
 
 ### Media
-- Photo used in welcome section taken by Model bookings studio, paid for rights by the developper.
-- All other images taken/generated by the developper.
+- Photo used in welcome section taken by Model bookings studio, paid for rights by the developer.
+- All other images taken/generated by the developer.
 
 ### Code
 - CSS and HTML code for the nav bar in the header was originally taken from the [Love Running walkthrough project](https://github.com/dasic002/Love-Running), then CSS was altered for the intended look.
@@ -254,7 +255,7 @@ The deployed page can be found [here.](https://dasic002.github.io/Carlos-Da-Silv
 - Guidance on how to prevent the contact form text area from being resized. [Learnt about textarea{resize: none;} function here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
 - Guidance on using background function for the images under a division. [background shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
 
-### Acknoledgement
+### Acknowledgement
 - My mentor Brian Macharia for his insight, guidance and words of encouragement.
 
 <!--## Other General Project Advice
