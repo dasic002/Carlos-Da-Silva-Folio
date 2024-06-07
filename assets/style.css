@@ -334,6 +334,47 @@ footer {
     border-radius: 50%;
 }
 
+/* page 404 */
+#error {
+    height: 95vh;
+    text-align: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+#error h1 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#error i {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+#home-btn {
+    display: inline-block;
+    padding: 1rem;
+    margin: 2rem 0;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 150%;
+    color: #e0e0e0;
+    background-color: #8c0d0d;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+#footer-404 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* MEDIA QUERIES */
+
 @media screen and (min-width: 333px) {
     #welcome-img {
         background-size: contain;
@@ -341,8 +382,6 @@ footer {
 
 }
 
-
-/* MEDIA QUERIES */
 @media screen and (min-width: 425px) {
 
     /* Header */
