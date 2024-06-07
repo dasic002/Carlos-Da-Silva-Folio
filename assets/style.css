@@ -336,10 +336,9 @@ footer {
 
 /* page 404 */
 #error {
-    height: 95vh;
     text-align: center;
     align-content: center;
-    padding: 1rem;
+    padding: 80px 1rem;
 }
 
 #error h1 {
@@ -366,7 +365,7 @@ footer {
 }
 
 #footer-404 {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
