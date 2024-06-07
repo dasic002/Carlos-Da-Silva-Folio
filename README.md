@@ -75,6 +75,7 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
   - The X icon in expandable projects section.
   - The clear and submit form.
   - The contact platforms in the footer.
+- [FavIcon generator](https://favicon.io/) - used to create the favicons to embed on our site.
 - [Am I Responsive](https://ui.dev/amiresponsive) - to visualise the website in various display sizes.
 - [Adobe Color](https://color.adobe.com/create/color-wheel) - to generate the colour palette and Accessibility tools checking for contrast for legibility and color blind viewing.
 - [Tiny PNG](https://tinypng.com/) - to compress images for faster page loading.
@@ -114,13 +115,17 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 - __Contact us form__
   - The contact form offers a means for the visitor to get in touch with myself directly from the website, prompting the visitor to introduce themselves and to describe what project they may be looking to collaborate on. 
   - The form collects First name, Surname, email address, phone number (not a required field) and body of text for a message.
-  - It includes two buttons replaced with icons, reset form shown as an eraser icon, whilst the submit button is a paper airplane icon.
+  - It includes two buttons replaced with icons, reset form shown as an eraser icon, whilst the submit button is a paper airplane icon.<br>
   ![Contact form](documentation/Feat-ContactForm.PNG)
 
 - __The Footer__ 
   - The footer contains links to my company's instagram page, my personal Linkedin profile, my company's whatsapp contact and etsy shop.
-  - Should the visitor prefer to contact outside of the form, they are welcome to reach out via these means.
+  - Should the visitor prefer to contact outside of the form, they are welcome to reach out via these means.<br>
   ![Footer links](documentation/Feat-Footer.PNG)
+
+- __Error 404 Page__
+  - A page inkeeping with the style of the main page of the site to indicate the visitor as stumbles upon an non-existent URL of out site and to point them back to our homepage.<br>
+  ![Error 404 page](documentation/Feat-404_page.PNG)
 
 ### Features Left to Implement
 - Navigation hamburger icon to change to a cross when expanded to give a visual clue on how to close the menu.
@@ -171,7 +176,37 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 
 | Feature | Action | Expected Behaviour | Pass/Fail | Notes |
 |-|-|-|-|-|
-| figure1 | etc | etc | PASS | Works on all devices |
+|Google fonts|Loading the page|Google fonts load|PASS|
+|Font awesome icons|Loading the page|Icons appear as intended|PASS|
+|Images|Loading the page|images appear as intended|PASS|
+|content text |Loading the page|text appears as intended|PASS|
+|Nav bar appearance|Loading the page|Nav bar appears as expected, collapsed hamburger icon for narrow displays, expanded along the width for medium and wider displays.|PASS|
+|nav bar hamburger icon|Click Hamburger icon|hamburger icon expands to reveal nav menu|PASS|
+|Nav link - Home|Click link "Home"|link navigates to welcome section / landing page|PASS|
+|Nav link - Projects|Click link "Projects"|link navigates to projects section of site|PASS|
+|nav link - Contact Us|Click link "Contact Us"|link navigates to contact us section|PASS|
+|Projects - mobile|Click to expand|Project div expands to reveal image and project brief.|PASS|
+|Projects - mobile|Click others to expand|Previously expanded project closes when other expands.|PASS|
+|Projects - mobile|Click X icon to close|Current expanded project closes.|PASS|
+|Projects - 600px wide|page load|Projects are expanded with text to the side of the image.|PASS|
+|Projects - 1500px wide|page load|Projects are expanded with text below images and lined up in a row across the width of the page.|PASS|
+|Contact form - visual|page load|Contact form maintains intended appearance, with no additional controls.|PASS|
+|Contact form|Submit form without entering First name|Form prompts user to fill in field.|PASS|
+|Contact form|Submit form without entering Surname|Form prompts user to fill in field.|PASS|
+|Contact form|Submit form without entering email|Form prompts user to enter an email address in field.|PASS|
+|Contact form|Submit form without entering an "@" sign in the email field|Form prompts user to enter an email address in field.|PASS|
+|Contact form|Submit form without entering a message in the textarea field|Form prompts user to fill in field.|PASS|
+|Contact form|Submit form upon entering valid data|Page loads CI's formdump with data received.|PASS|
+|Contact form|Click on eraser icon|Form fields are cleared.|PASS|
+|Footer - hover|hover wih mouse over link icons|Icons should be surrounded with black circular background|PASS|
+|Footer - links|Click Instagram icon|Opens Studio Silva's instagram page on new tab.|PASS|
+|Footer - links|Click Linked in icon|Opens Carlos Da Silva's Linked In profile|PASS|
+|Footer - links|Click Whatsapp icon|Opens Studio Silva's WhatsApp contact|PASS|
+|Footer - links|Click Etsy icon|Opens Carlos' Etsy page|PASS|
+|Error 404 page|Enter non-existing url for the site|Calls up custom 404.html|PASS|
+|Error 404 page|on page loading|Footer is fixed at the bottom of the display, there is no length to scroll unless content is longer than viewport height.|PASS|
+|Error 404 page|Click on the Home button|Brings viewer back to main page|PASS|
+
 
 
 
@@ -184,7 +219,7 @@ The intended look was to have this floating hamburger icon that when clicked the
 Using Section IDs for the navigation of the site means the menu does not toggle off on clicking them. Tried using the label element to wrap the anchors to trigger the checkbox that expands the nav menu:
   - wrapping the visible text of the anchor with the label toggles the checkbox, but does not navigate to their section at the same time;
   - wrapping the anchor with the label, navigates but does toggle the checkbox.
-The alternative to improve UI is having the hamburger/bars icon replaved with a X icon when the menu is expanded.
+Seems this requires some javascript to do this. Even the alternative of having the hamburger/bars icon replaved with a X icon when the menu is expanded seems to require javascript.
 
 
 ## Deployment
