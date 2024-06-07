@@ -54,7 +54,6 @@ Simply 3 sections in one single page:
 [Projects page](documentation/Folio-Projects_page.jpg) (planned feature only)
 
 [Contact us page](documentation/Folio-ContactUs_Page.jpg) (planned feature only)
-<!-- Move mockups here -->
 
 ### Surface
 #### Colour theme
@@ -132,15 +131,6 @@ For the minimalistic modern style, a monochromatic palette composed of virtually
 
 ## Testing 
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
- -->
-
 ### Validator Testing 
 
 - HTML
@@ -159,6 +149,30 @@ If this section grows too long, you may want to split it off into a separate fil
 
   - Running the site through [WAVE acessibility tool](https://wave.webaim.org/report#/https://dasic002.github.io/Carlos-Da-Silva-Folio/index.html) showed no obvious errors after some improvements were made.<br>
   ![Wave accessibility evaluation results](documentation/Test-wave-accessibility.PNG)
+
+### Manual Testing
+
+#### Devices and browsers used
+- iPhone 12 Pro - iOS 17.4.1
+  - Safari (v17.4.1)
+  - Chrome (v126)
+  - Google (v319)
+
+- iPad Pro (12.9 inch - 4th Gen) - iPadOS 17.4.1
+  - Safari (v17.4.1)
+  - Chrome (v125)
+
+- Dell Precision 3510 laptop - Windows 10 Pro (2H22)
+  - Chrome (v125)
+  - Firefox (v126)
+  - Microsoft Edge (v125)
+
+#### Manual testing checklist
+
+| Feature | Action | Expected Behaviour | Pass/Fail | Notes |
+|-|-|-|-|-|
+| figure1 | etc | etc | PASS | Works on all devices |
+
 
 
 ### Unfixed Bugs
